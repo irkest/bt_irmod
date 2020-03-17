@@ -23,7 +23,7 @@
     "ChassisID": "chassisdef_flea_FLE-21",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3170000,
+        "Cost": 3180000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -49,20 +49,20 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 20,
-            "AssignedArmor": 40,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 55,
-            "CurrentRearArmor": 20,
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 25,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 55,
-            "AssignedRearArmor": 20
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
@@ -76,19 +76,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 55,
-            "CurrentRearArmor": 20,
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 25,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 55,
-            "AssignedRearArmor": 20
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 20,
-            "AssignedArmor": 40,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
@@ -179,7 +179,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

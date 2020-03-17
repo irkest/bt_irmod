@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_fleaBase-001",
     "PrefabBase": "flea",
     "Tonnage": 20,
-    "InitialTonnage": 6.5,
+    "InitialTonnage": 6.75,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -71,9 +71,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftTorso",
@@ -85,7 +85,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
+            "MaxArmor": 50,
             "MaxRearArmor": 25,
             "InternalStructure": 25
         },
@@ -113,7 +113,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
+            "MaxArmor": 50,
             "MaxRearArmor": 25,
             "InternalStructure": 25
         },
@@ -135,9 +135,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftLeg",

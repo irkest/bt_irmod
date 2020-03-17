@@ -8,7 +8,7 @@
         "UIName": "Flea 22",
         "Id": "chassisdef_flea_FLE-22",
         "Name": "Flea 22",
-        "Details": "Stock configuration of Flea 22: 6 flame throwers, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit mod.",
+        "Details": "Stock configuration of Flea 22: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures, heatsink and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_fleaBase-001",
     "PrefabBase": "flea",
     "Tonnage": 20,
-    "InitialTonnage": 6.5,
+    "InitialTonnage": 7,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 15,
+    "MeleeDamage": 20,
     "MeleeInstability": 20,
     "MeleeToHitModifier": 0,
     "DFADamage": 25,
@@ -71,18 +71,13 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 55,
@@ -105,12 +100,7 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 55,
@@ -135,16 +125,16 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 25
         },
@@ -153,7 +143,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 55,
             "MaxRearArmor": -1,
             "InternalStructure": 25
         }
@@ -208,7 +198,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
-    "YangsThoughts": "Stock configuration of Flea 22: 6 flame throwers, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Stock configuration of Flea 22: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures, heatsink and Ceres metals braced cockpit mod.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
@@ -227,6 +217,30 @@
             "ComponentDefID" : "Gear_General_Targeting_Baffle",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "HeatSink",
             "HardpointSlot" : -1,
             "IsFixed" : true,
             "GUID" : null,

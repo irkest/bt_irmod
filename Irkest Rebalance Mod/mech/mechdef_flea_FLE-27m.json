@@ -9,14 +9,15 @@
             "unit_range_short",
             "unit_speed_high",
             "unit_armor_high",
-            "unit_jumpOK"
+            "unit_jumpOK",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_flea_FLE-27m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4140000,
+        "Cost": 4260000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,10 +25,10 @@
         "UIName": "Flea FLE-27 (m)",
         "Id": "mechdef_flea_FLE-27m",
         "Name": "Flea 27 (m)",
-        "Details": "Improved configuration of Flea 27: 2 small pulse lasers (+), 2 small lasers (+), 6 jump jets, 2 targeting baffles, 3 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Improved configuration of Flea 27: 2 small pulse lasers (+), 2 small lasers (++), 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 410000,
+    "simGameMechPartCost": 430000,
     "Version": 1,
     "Locations": [
         {
@@ -42,20 +43,20 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 20,
-            "AssignedArmor": 40,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
             "CurrentArmor": 55,
-            "CurrentRearArmor": 20,
+            "CurrentRearArmor": 25,
             "CurrentInternalStructure": 25,
             "AssignedArmor": 55,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
@@ -70,36 +71,36 @@
             "DamageLevel": "Functional",
             "Location": "RightTorso",
             "CurrentArmor": 55,
-            "CurrentRearArmor": 20,
+            "CurrentRearArmor": 25,
             "CurrentInternalStructure": 25,
             "AssignedArmor": 55,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 20,
-            "AssignedArmor": 40,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 50,
+            "CurrentArmor": 55,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 50,
+            "AssignedArmor": 55,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 50,
+            "CurrentArmor": 55,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 50,
+            "AssignedArmor": 55,
             "AssignedRearArmor": -1
         }
     ],
@@ -117,7 +118,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_1-ExoStar",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_2-Intek",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -175,17 +176,6 @@
             "ComponentDefID": "Gear_JumpJet_Generic_Light",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -205,7 +195,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_1-ExoStar",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_2-Intek",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

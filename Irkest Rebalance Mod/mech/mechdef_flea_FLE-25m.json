@@ -9,14 +9,15 @@
             "unit_range_short",
             "unit_speed_high",
             "unit_armor_high",
-            "unit_jumpOK"
+            "unit_jumpOK",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_flea_FLE-25m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4720000,
+        "Cost": 4500000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,10 +25,10 @@
         "UIName": "Flea FLE-25 (m)",
         "Id": "mechdef_flea_FLE-25m",
         "Name": "Flea 25 (m)",
-        "Details": "Improved configuration of Flea 25: 3 extended-range small laser (+), 6 jump jets, 2 targeting baffles, 5 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Improved configuration of Flea 25: 3 extended-range small laser (+), 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 470000,
+    "simGameMechPartCost": 450000,
     "Version": 1,
     "Locations": [
         {
@@ -42,20 +43,20 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 20,
-            "AssignedArmor": 40,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 55,
-            "CurrentRearArmor": 20,
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 25,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 55,
-            "AssignedRearArmor": 20
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
@@ -69,19 +70,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 55,
-            "CurrentRearArmor": 20,
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 25,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 55,
-            "AssignedRearArmor": 20
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 20,
-            "AssignedArmor": 40,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
@@ -154,17 +155,6 @@
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
