@@ -1,0 +1,24 @@
+{
+    "Story": {
+        "MaxContractsPerSystem": 20,
+        "MaxBreadcrumbsPerSystem": 4,
+        "MissionsForFirstBreadcrumb": 1
+    },
+    "CareerMode" : {
+        "GameLength" : 3000,
+        "StartingRandomMechLists" : [
+            "itemCollection_Mechs_Starting_0",
+            "itemCollection_Mechs_Starting_1",
+            "itemCollection_Mechs_Starting_2",
+            "itemCollection_Mechs_Starting_3",
+            "itemCollection_Mechs_Starting_4"
+        ],
+        "LoathedMaxContractDifficulty" : 8,
+        "HatedMaxContractDifficulty" : 8,
+        "DislikedMaxContractDifficulty" : 8,
+        "IndifferentMaxContractDifficulty" : 9,
+        "LikedMaxContractDifficulty" : 9,
+        "FriendlyMaxContractDifficulty" : 10,
+        "HonoredMaxContractDifficulty" : 10
+    }
+}

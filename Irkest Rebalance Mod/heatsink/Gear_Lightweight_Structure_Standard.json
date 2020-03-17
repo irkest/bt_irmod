@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 0,
+    "Description" : {
+        "Cost" : 40000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Standard",
+        "UIName" : "Lightweight Structure",
+        "Id" : "Gear_Lightweight_Structure_Standard",
+        "Name" : "Lightweight Structure",
+        "Details" : "The lightweight structure reduces the weight of the mech, but makes it impossible to use the occupied space with something else.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : -1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

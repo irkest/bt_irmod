@@ -1,0 +1,17 @@
+{
+    "Name": "Irkest Rebalance Mod",
+    "Enabled": true,
+    "Version": "1.0",
+    "Description": "Rebalancing weapons, mechs and other stuff.",
+
+    "Manifest": [
+        { "Type": "AmmunitionBoxDef", "Path": "ammobox", "AddToDB": true },
+        { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
+        { "Type": "JumpJetDef", "Path": "jumpjet", "AddToDB": true },
+        { "Type": "HeatSinkDef", "Path": "heatsink", "AddToDB": true },
+        { "Type": "UpgradeDef", "Path": "upgrade", "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+        { "Type": "ItemCollectionDef", "Path": "itemcollection", "ShouldAppendText": false }
+    ]
+}
