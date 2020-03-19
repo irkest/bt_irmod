@@ -17,7 +17,7 @@
     "ChassisID": "chassisdef_firestarter_FS10-BS3",
     "HeraldryID": null,
     "Description": {
-        "Cost": 7910000,
+        "Cost": 6970000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -28,7 +28,7 @@
         "Details": "Stock configuration of Firestarter FS10-BS3: 6 extended-range small lasers (+), 2 vectored thrust kits, 4 jump jets, 8 heatsinks and Ceres metals reinforced cockpit mod.",
         "Icon": "uixTxrIcon_firestarter"
     },
-    "simGameMechPartCost": 790000,
+    "simGameMechPartCost": 700000,
     "Version": 1,
     "Locations": [
         {
@@ -140,17 +140,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
@@ -194,43 +183,10 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

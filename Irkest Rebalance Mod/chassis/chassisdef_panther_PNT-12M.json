@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_pantherBase-001",
     "PrefabBase": "panther",
     "Tonnage": 35,
-    "InitialTonnage": 10.5,
+    "InitialTonnage": 11.5,
     "weightClass": "LIGHT",
     "BattleValue": 3087000,
     "Heatsinks": 0,

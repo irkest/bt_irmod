@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 2100000,
+        "Cost": 2000000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Locust 2G",
         "Id": "chassisdef_locust_LCT-2G",
         "Name": "Locust 2G",
-        "Details": "Stock configuration of Locust 2G: 5 rapid-fire machine guns, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Stock configuration of Locust 2G: 4 rapid-fire machine guns, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 6,
+    "InitialTonnage": 7,
     "weightClass": "LIGHT",
     "BattleValue": 1642000,
     "Heatsinks": 0,
@@ -60,7 +60,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -74,18 +74,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
-            "MaxRearArmor": 25,
-            "InternalStructure": 25
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
         },
         {
             "Location": "CenterTorso",
@@ -101,24 +101,24 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 70,
-            "MaxRearArmor": 35,
-            "InternalStructure": 35
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
-            "MaxRearArmor": 25,
-            "InternalStructure": 25
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -132,27 +132,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 25
+            "InternalStructure": 30
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 25
+            "InternalStructure": 30
         }
     ],
     "LOSSourcePositions": [
@@ -205,7 +205,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Fire Support",
-    "YangsThoughts": "Stock configuration of Locust 2G: 5 rapid-fire machine guns, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Stock configuration of Locust 2G: 4 rapid-fire machine guns, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

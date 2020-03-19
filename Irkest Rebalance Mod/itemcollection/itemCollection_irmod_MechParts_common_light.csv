@@ -2,6 +2,7 @@ itemCollection_irmod_MechParts_common_light,,,
 mechdef_locust_LCT-2D,MechPart,2,3
 mechdef_locust_LCT-2FT,MechPart,2,3
 mechdef_locust_LCT-2G,MechPart,2,3
+mechdef_locust_LCT-2E,MechPart,2,3
 mechdef_locust_LCT-2R,MechPart,2,3
 mechdef_locust_LCT-2U,MechPart,2,3
 mechdef_commando_COM-1F,MechPart,1,3

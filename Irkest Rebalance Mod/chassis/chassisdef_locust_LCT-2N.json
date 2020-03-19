@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 2100000,
+        "Cost": 2000000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Locust 2N",
         "Id": "chassisdef_locust_LCT-2N",
         "Name": "Locust 2N",
-        "Details": "Stock configuration of Locust 2N: 7 small lasers, 6 jump jets, 2 integrated cooling systems, 2 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Stock configuration of Locust 2N: 5 small lasers, 6 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 6,
+    "InitialTonnage": 7,
     "weightClass": "LIGHT",
     "BattleValue": 1642000,
     "Heatsinks": 0,
@@ -74,18 +74,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
-            "MaxRearArmor": 25,
-            "InternalStructure": 25
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
         },
         {
             "Location": "CenterTorso",
@@ -101,18 +101,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 70,
-            "MaxRearArmor": 35,
-            "InternalStructure": 35
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
-            "MaxRearArmor": 25,
-            "InternalStructure": 25
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
         },
         {
             "Location": "RightArm",
@@ -132,27 +132,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 20
+            "InternalStructure": 25
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 25
+            "InternalStructure": 30
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 25
+            "InternalStructure": 30
         }
     ],
     "LOSSourcePositions": [
@@ -205,7 +205,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Fire Support",
-    "YangsThoughts": "Stock configuration of Locust 2N: 7 small lasers, 6 jump jets, 2 integrated cooling systems, 2 heatsinks and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Stock configuration of Locust 2N: 5 small lasers, 6 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit mod.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
@@ -221,7 +221,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_Integrated_Cooling_System_Standard",
+            "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
             "SimGameUID" : "",
             "ComponentDefType" : "HeatSink",
             "HardpointSlot" : -1,

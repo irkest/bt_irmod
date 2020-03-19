@@ -1,7 +1,7 @@
 {
     "Story": {
-        "MaxContractsPerSystem": 20,
-        "MaxBreadcrumbsPerSystem": 4,
+        "MaxContractsPerSystem": 12,
+        "MaxBreadcrumbsPerSystem": 5,
         "MissionsForFirstBreadcrumb": 1
     },
     "CareerMode" : {
