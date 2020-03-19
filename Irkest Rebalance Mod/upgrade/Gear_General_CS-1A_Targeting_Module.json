@@ -1,0 +1,114 @@
+{
+    "Description" : {
+        "Cost" : 400000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Dalban/RCA",
+        "Model" : "",
+        "UIName" : "The CS-1A targeting module",
+        "Id" : "Gear_General_CS-1A_Targeting_Module",
+        "Name" : "The CS-1A targeting module",
+        "Details" : "The CS-1A targeting module increases the accuracy of energy weapons and improves the reliability of Called Shots executed by the mech pilot.",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA" : "+ Called Shot",
+    "BonusValueB" : "+ 1 Acc. (Energy)",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
+                "Name" : "ENERGY WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Energy weapon attacks have their hit improved by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" :
+            {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" :
+            {
+                "Id" : "StatusEffect-LCM-CalledShotBonus",
+                "Name" : "LANCE COMMAND MODULE",
+                "Details" : "Called Shots executed by this unit are more reliable.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : 
+            {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "CalledShotBonusMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "2.4",
+                "modType" : "System.Single"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+			"BUILT-IN"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

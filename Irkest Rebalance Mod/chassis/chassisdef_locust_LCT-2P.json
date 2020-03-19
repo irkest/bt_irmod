@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 2100000,
+        "Cost": 1900000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Locust 2E2",
-        "Id": "chassisdef_locust_LCT-2E2",
-        "Name": "Locust 2E2",
-        "Details": "Stock configuration of Locust 2E2: 3 extended-range medium lasers, 8 jump jets, integrated cooling system, 4 heatsinks, lightweight structure and Ceres metals braced cockpit mod.",
+        "UIName": "Locust 2P",
+        "Id": "chassisdef_locust_LCT-2P",
+        "Name": "Locust 2P",
+        "Details": "Stock configuration of Locust 2P: PPC, 4 jump jets, CS-1A targeting module, integrated cooling system, 2 lightweight structures and Majesty M M 60KL Rangefinder.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 6,
+    "InitialTonnage": 6.5,
     "weightClass": "LIGHT",
     "BattleValue": 1642000,
     "Heatsinks": 0,
@@ -64,17 +64,13 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 35,
             "MaxRearArmor": -1,
             "InternalStructure": 20
         },
@@ -83,7 +79,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": 25,
             "InternalStructure": 25
         },
@@ -110,7 +106,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 55,
+            "MaxArmor": 45,
             "MaxRearArmor": 25,
             "InternalStructure": 25
         },
@@ -132,7 +128,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 40,
+            "MaxArmor": 35,
             "MaxRearArmor": -1,
             "InternalStructure": 20
         },
@@ -141,7 +137,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 25
         },
@@ -150,7 +146,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 50,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 25
         }
@@ -199,19 +195,43 @@
             "z": 0
         }
     ],
-    "VariantName": "LCT-2E2",
+    "VariantName": "LCT-2P",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Fire Support",
-    "YangsThoughts": "Stock configuration of Locust 2E2: 3 extended-range medium lasers, 8 jump jets, integrated cooling system, 4 heatsinks, lightweight structure and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Stock configuration of Locust 2P: PPC, 4 jump jets, CS-1A targeting module, integrated cooling system, 2 lightweight structures and Majesty M M 60KL Rangefinder.",
     "FixedEquipment" : [
+        {
+            "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
         {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Integrated_Cooling_System_Standard",
             "SimGameUID" : "",
             "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_General_CS-1A_Targeting_Module",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
             "IsFixed" : true,
             "GUID" : null,
