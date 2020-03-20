@@ -4,7 +4,7 @@
         "Cost" : 200000,
         "Rarity" : 100,
         "Purchasable" : false,
-        "Manufacturer" : "Generic",
+        "Manufacturer" : "StarCorp",
         "Model" : "Standard",
         "UIName" : "Integrated cooling system",
         "Id" : "Gear_Integrated_Cooling_System_Standard",

@@ -4,7 +4,7 @@
         "Cost" : 40000,
         "Rarity" : 0,
         "Purchasable" : true,
-        "Manufacturer" : "Generic",
+        "Manufacturer" : "Coventry",
         "Model" : "Standard",
         "UIName" : "Lightweight Structure",
         "Id" : "Gear_Lightweight_Structure_Standard",
@@ -12,7 +12,7 @@
         "Details" : "The lightweight structure reduces the weight of the mech, but makes it impossible to use the occupied space with something else.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA" : "",
+    "BonusValueA" : "- 1 Ton",
     "BonusValueB" : "",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",

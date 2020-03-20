@@ -1,0 +1,34 @@
+{
+    "DissipationCapacity" : 0,
+    "Description" : {
+        "Cost" : 30000,
+        "Rarity" : 100,
+        "Purchasable" : false,
+        "Manufacturer" : "Friedhof",
+        "Model" : "Standard",
+        "UIName" : "Armor plate slots: leg - 15",
+        "Id" : "Gear_Armor_Plate_Slots_Leg_Light",
+        "Name" : "Armor plate slots: leg - 15",
+        "Details" : "The additional leg slots for armor plates allow to increase armor by 15 units.",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA" : "+ 15 armor",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.05,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
