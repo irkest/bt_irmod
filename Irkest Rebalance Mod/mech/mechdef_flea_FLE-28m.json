@@ -24,7 +24,7 @@
         "UIName": "Flea FLE-28 (m)",
         "Id": "mechdef_flea_FLE-28m",
         "Name": "Flea 28 (m)",
-        "Details": "Improved configuration of Flea 28: 2 rapid-fire machine guns (+), 2 extended-range small lasers (+), 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time machine guns, 2 old-time small lasers, 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_flea"
     },
     "simGameMechPartCost": 410000,
@@ -117,7 +117,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -128,7 +128,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_1-Magna",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -194,7 +194,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -205,7 +205,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_1-Magna",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,

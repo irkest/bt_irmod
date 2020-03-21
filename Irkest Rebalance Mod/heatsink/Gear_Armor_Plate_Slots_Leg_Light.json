@@ -6,11 +6,11 @@
         "Purchasable" : false,
         "Manufacturer" : "Friedhof",
         "Model" : "Standard",
-        "UIName" : "Armor plate slots: leg - 15",
+        "UIName" : "Armor plate slots: leg",
         "Id" : "Gear_Armor_Plate_Slots_Leg_Light",
-        "Name" : "Armor plate slots: leg - 15",
+        "Name" : "Armor plate slots: leg",
         "Details" : "The additional leg slots for armor plates allow to increase armor by 15 units.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 15 armor",
     "BonusValueB" : "",

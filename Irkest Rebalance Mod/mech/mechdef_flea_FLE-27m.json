@@ -16,7 +16,7 @@
     "ChassisID": "chassisdef_flea_FLE-27m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4260000,
+        "Cost": 5180000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,10 +24,10 @@
         "UIName": "Flea FLE-27 (m)",
         "Id": "mechdef_flea_FLE-27m",
         "Name": "Flea 27 (m)",
-        "Details": "Improved configuration of Flea 27: 2 small pulse lasers (+), 2 small lasers (++), 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time small pulse lasers, 6 jump jets, 2 targeting baffles, 3 heatsinks and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 430000,
+    "simGameMechPartCost": 520000,
     "Version": 1,
     "Locations": [
         {
@@ -116,19 +116,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-Intek",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -161,7 +150,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -193,11 +182,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-Intek",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

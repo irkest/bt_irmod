@@ -16,7 +16,7 @@
     "ChassisID": "chassisdef_flea_FLE-24m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3640000,
+        "Cost": 4920000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,10 +24,10 @@
         "UIName": "Flea FLE-24 (m)",
         "Id": "mechdef_flea_FLE-24m",
         "Name": "Flea 24 (m)",
-        "Details": "Custom configuration of Flea 24: 4 rapid-fire machine guns (++), additional armor plates, 6 jump jets, 2 targeting baffles and StarCorps enhanced comms system.",
+        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 4 old-time machine guns, additional armor plates, 6 jump jets, 2 targeting baffles and StarCorps enhanced comms system.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 360000,
+    "simGameMechPartCost": 490000,
     "Version": 1,
     "Locations": [
         {
@@ -117,7 +117,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -128,7 +128,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -183,7 +183,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -194,7 +194,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,

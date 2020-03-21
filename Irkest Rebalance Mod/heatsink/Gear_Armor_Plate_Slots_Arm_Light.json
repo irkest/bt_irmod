@@ -6,11 +6,11 @@
         "Purchasable" : false,
         "Manufacturer" : "Friedhof",
         "Model" : "Standard",
-        "UIName" : "Armor plate slots: arm - 10",
+        "UIName" : "Armor plate slots: arm",
         "Id" : "Gear_Armor_Plate_Slots_Arm_Light",
-        "Name" : "Armor plate slots: arm - 10",
+        "Name" : "Armor plate slots: arm",
         "Details" : "The additional arm slots for armor plates allow to increase armor by 10 units.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 10 armor",
     "BonusValueB" : "",

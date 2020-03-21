@@ -8,7 +8,7 @@
         "UIName": "Flea 25 (m)",
         "Id": "chassisdef_flea_FLE-25m",
         "Name": "Flea 25 (m)",
-        "Details": "Improved configuration of Flea 25: 3 extended-range small laser (+), 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 3 old-time small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit mod.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -208,7 +208,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Improved configuration of Flea 25: 3 extended-range small laser (+), 6 jump jets, 2 targeting baffles, 5 heatsinks and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 3 old-time small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit mod.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

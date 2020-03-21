@@ -1,0 +1,66 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "MachineGun",
+    "WeaponSubType" : "MachineGun",
+    "MinRange" : 0,
+    "MaxRange" : 240,
+    "RangeSplit" : [
+        160,
+        160,
+        240
+    ],
+    "ammoCategoryID" : "MG",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 4,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 2,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 7,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
+    "Description" : {
+        "Cost" : 300000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Unknown",
+        "Model" : "Machine Gun",
+        "UIName" : "Old-Time Machine Gun",
+        "Id" : "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
+        "Name" : "Old-Time Machine Gun",
+        "Details" : "An old-time machine gun has a high rate of fire and accuracy compared to modern ones.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "+ 2 Acc.",
+    "BonusValueB" : "+ 50% Crit.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_close",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

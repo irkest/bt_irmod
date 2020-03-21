@@ -1,0 +1,66 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Laser",
+    "WeaponSubType" : "SmallLaserER",
+    "MinRange" : 0,
+    "MaxRange" : 240,
+    "RangeSplit" : [
+        160,
+        160,
+        240
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 8,
+    "Damage" : 33,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -3,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
+    "Description" : {
+        "Cost" : 600000,
+        "Rarity" : 100,
+        "Purchasable" : false,
+        "Manufacturer" : "Unknown",
+        "Model" : "Extended-Range Small Laser",
+        "UIName" : "Old-Time Small Laser",
+        "Id" : "Weapon_Laser_SmallLaser_Old-Time",
+        "Name" : "Old-Time Small Laser",
+        "Details" : "An old-time small laser has increased damage and range compared to modern ones.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "+ 2 Acc.",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_close",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
