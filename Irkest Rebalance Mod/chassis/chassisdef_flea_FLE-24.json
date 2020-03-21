@@ -8,7 +8,7 @@
         "UIName": "Flea 24",
         "Id": "chassisdef_flea_FLE-24",
         "Name": "Flea 24",
-        "Details": "Stock configuration of Flea 24: 4 rapid-fire machine guns, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit mod.",
+        "Details": "Flea 24 stock configuration: 4 rapid-fire machine guns, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -208,7 +208,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Stock configuration of Flea 24: 4 rapid-fire machine guns, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Flea 24 stock configuration: 4 rapid-fire machine guns, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

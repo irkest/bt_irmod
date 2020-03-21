@@ -32,7 +32,7 @@
         "UIName": "Locust LCT-2E",
         "Id": "mechdef_locust_LCT-2E",
         "Name": "Locust 2E",
-        "Details": "Stock configuration of Locust 2E: 3 medium lasers, 6 jump jets, integrated cooling system, 2 heatsinks, lightweight structure and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2E stock configuration: 3 medium lasers, 6 jump jets, integrated cooling system, 2 heatsinks, lightweight structure and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 320000,

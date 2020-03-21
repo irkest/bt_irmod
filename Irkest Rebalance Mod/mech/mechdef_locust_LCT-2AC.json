@@ -31,7 +31,7 @@
         "UIName": "Locust LCT-2AC",
         "Id": "mechdef_locust_LCT-2AC",
         "Name": "Locust 2AC",
-        "Details": "Stock configuration of Locust 2AC: 2 AC/2s, 4 jump jets, CS-2R targeting module, 4 integrated lightweight structures and Majesty M M 60KL Rangefinder.",
+        "Details": "Locust 2AC stock configuration: 2 AC/2s, 4 jump jets, CS-2R targeting module, 4 integrated lightweight structures and Majesty M M 60KL Rangefinder.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 320000,

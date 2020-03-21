@@ -8,7 +8,7 @@
         "UIName": "Flea 27",
         "Id": "chassisdef_flea_FLE-27",
         "Name": "Flea 27",
-        "Details": "Stock configuration of Flea 27: 4 machine guns, 2 small lasers, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit mod.",
+        "Details": "Flea 27 stock configuration: 4 machine guns, 2 small lasers, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -208,7 +208,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Stock configuration of Flea 27: 4 machine guns, 2 small lasers, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Flea 27 stock configuration: 4 machine guns, 2 small lasers, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

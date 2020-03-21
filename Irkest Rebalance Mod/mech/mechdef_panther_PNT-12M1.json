@@ -31,7 +31,7 @@
         "UIName": "Panther 12M1",
         "Id": "mechdef_panther_PNT-12M1",
         "Name": "Panther 12M1",
-        "Details": "Stock configuration of Panther 12M1: 4 medium pulse lasers (+), 5 jump jets, integrated cooling system, 6 heatsinks, lightweight structure and Ceres metals reinforced cockpit mod.",
+        "Details": "Panther 12M1 stock configuration: 4 medium pulse lasers (+), 5 jump jets, integrated cooling system, 5 heatsinks, lightweight structure and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_panther"
     },
     "simGameMechPartCost": 840000,

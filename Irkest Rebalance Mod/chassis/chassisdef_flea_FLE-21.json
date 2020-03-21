@@ -8,7 +8,7 @@
         "UIName": "Flea 21",
         "Id": "chassisdef_flea_FLE-21",
         "Name": "Flea 21",
-        "Details": "Stock configuration of Flea 21: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit mod.",
+        "Details": "Flea 21 stock configuration: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -208,7 +208,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Stock configuration of Flea 21: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Flea 21 stock configuration: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

@@ -8,7 +8,7 @@
         "UIName": "Javelin 15N",
         "Id": "chassisdef_javelin_JVN-15N",
         "Name": "Javelin 15N",
-        "Details": "Stock configuration of Javelin 15N: 16 SRM tubes, 4 jump jets, 2 heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Javelin 15N stock configuration: 16 SRM tubes, 4 jump jets, 2 heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_javelin"
     },
     "MovementCapDefID": "movedef_javelin_JVN-10N",
@@ -197,7 +197,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Stock configuration of Javelin 15N: 16 SRM tubes, 4 jump jets, 2 heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Javelin 15N stock configuration: 16 SRM tubes, 4 jump jets, 2 heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftArm",

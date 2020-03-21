@@ -8,7 +8,7 @@
         "UIName": "Assassin 210",
         "Id": "chassisdef_assassin_ASN-210",
         "Name": "Assassin 210",
-        "Details": "Stock configuration of ASN-210: 4 extended-range medium lasers, 6 jump jets, 10 heatsinks, intercept system, lightweight structure and Majesty M M 60KL Rangefinder.",
+        "Details": "Assassin 210 stock configuration: 4 extended-range medium lasers, 6 jump jets, 10 heatsinks, intercept system, lightweight structure and Majesty M M 60KL Rangefinder.",
         "Icon": "uixTxrIcon_assassin"
     },
     "MovementCapDefID": "movedef_assassin_ASN-101",
@@ -199,7 +199,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout / Hunter-Killer",
-    "YangsThoughts": "Stock configuration of ASN-210: 4 extended-range medium lasers, 6 jump jets, 10 heatsinks, intercept system, lightweight structure and Majesty M M 60KL Rangefinder.",
+    "YangsThoughts": "Assassin 210 stock configuration: 4 extended-range medium lasers, 6 jump jets, 10 heatsinks, intercept system, lightweight structure and Majesty M M 60KL Rangefinder.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

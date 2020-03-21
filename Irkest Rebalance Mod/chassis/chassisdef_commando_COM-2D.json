@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_commandoBase-001",
     "PrefabBase": "commando",
     "Tonnage": 25,
-    "InitialTonnage": 8,
+    "InitialTonnage": 9,
     "weightClass": "LIGHT",
     "BattleValue": 2061000,
     "Heatsinks": 0,

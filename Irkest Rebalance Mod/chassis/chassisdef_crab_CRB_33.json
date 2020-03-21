@@ -8,7 +8,7 @@
         "UIName": "Crab 33",
         "Id": "chassisdef_crab_CRB-33",
         "Name": "Crab 33",
-        "Details": "Stock configuration of Crab 33: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
+        "Details": "Crab 33 stock configuration: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
         "Icon": "uixTxrIcon_crab"
     },
     "MovementCapDefID": "movedef_crab_CRB-27",
@@ -215,7 +215,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Direct-Fire Support",
-    "YangsThoughts": "Stock configuration of Crab 33: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
+    "YangsThoughts": "Crab 33 stock configuration: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

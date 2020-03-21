@@ -10,7 +10,7 @@
         "UIName": "Vulcan VL-8T",
         "Id": "mechdef_vulcan_VL-8T",
         "Name": "Vulcan 8T",
-        "Details": "Stock configuration of Vulcan 8T: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit mod.",
+        "Details": "Vulcan 8T stock configuration: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_vulcan"
     },
     "simGameMechPartCost": 490000,

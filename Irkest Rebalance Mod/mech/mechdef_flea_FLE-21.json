@@ -31,7 +31,7 @@
         "UIName": "Flea FLE-21",
         "Id": "mechdef_flea_FLE-21",
         "Name": "Flea 21",
-        "Details": "'Flea 21' stock configuration: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit mod.",
+        "Details": "Flea 21 stock configuration: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "simGameMechPartCost": 320000,

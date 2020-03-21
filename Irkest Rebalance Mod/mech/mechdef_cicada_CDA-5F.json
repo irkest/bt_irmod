@@ -7,14 +7,14 @@
             "unit_role_scout",
             "unit_release",
             "unit_fallback",
-			"unit_range_medium",
-			"unit_speed_high",
-			"unit_armor_low",
-			"unit_jumpOK",
-			"NotDavion",
-			"NotKurita",
-			"Marik",
-			"NotTaurianConcordat"
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_low",
+            "unit_jumpOK",
+            "NotDavion",
+            "NotKurita",
+            "Marik",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
@@ -29,7 +29,7 @@
         "UIName": "Cicada CDA-5F",
         "Id": "mechdef_cicada_CDA-5F",
         "Name": "Cicada 5F",
-        "Details": "Stock configuration of Cicada 5F: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit mod.",
+        "Details": "Cicada 5F stock configuration: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_cicada"
     },
     "simGameMechPartCost": 610000,

@@ -8,7 +8,7 @@
         "UIName": "Commando",
         "Id": "chassisdef_commando_COM-1F",
         "Name": "Commando",
-        "Details": "Stock configuration of Commando COM-1F: 3 medium lasers, 3 machine guns, maximized armor.",
+        "Details": "Commando 1F stock configuration: 3 medium lasers, 3 machine guns, 3 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_commando"
     },
     "MovementCapDefID": "movedef_commando_COM-2D",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_commandoBase-001",
     "PrefabBase": "commando",
     "Tonnage": 25,
-    "InitialTonnage": 8,
+    "InitialTonnage": 9,
     "weightClass": "LIGHT",
     "BattleValue": 2061000,
     "Heatsinks": 3,
@@ -197,5 +197,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Stock configuration of Commando COM-1F: 3 medium lasers, 3 machine guns, maximized armor."
+    "YangsThoughts": "Commando 1F stock configuration: 3 medium lasers, 3 machine guns, 3 heatsinks and Ceres metals braced cockpit."
 }

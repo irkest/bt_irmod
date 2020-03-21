@@ -10,7 +10,7 @@
         "UIName": "Vulcan VL-7T",
         "Id": "mechdef_vulcan_VL-7T",
         "Name": "Vulcan 7T",
-        "Details": "Stock configuration of Vulcan 7T: 8 machine guns (++), 6 jump jets, close-quarters combat suite and Ceres metals braced cockpit mod.",
+        "Details": "Vulcan 7T stock configuration: 8 machine guns (++), 6 jump jets, close-quarters combat suite and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_vulcan"
     },
     "simGameMechPartCost": 490000,

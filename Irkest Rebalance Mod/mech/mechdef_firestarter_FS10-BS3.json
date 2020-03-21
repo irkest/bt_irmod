@@ -25,7 +25,7 @@
         "UIName": "Firestarter FS10-BS3",
         "Id": "mechdef_firestarter_FS10-BS3",
         "Name": "Firestarter 10-BS3",
-        "Details": "Stock configuration of Firestarter FS10-BS3: 6 extended-range small lasers (+), 2 vectored thrust kits, 4 jump jets, 8 heatsinks and Ceres metals reinforced cockpit mod.",
+        "Details": "Firestarter 10-BS3 stock configuration: 4 extended-range small lasers (+), 2 vectored thrust kits, 4 jump jets, 6 heatsinks and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_firestarter"
     },
     "simGameMechPartCost": 700000,

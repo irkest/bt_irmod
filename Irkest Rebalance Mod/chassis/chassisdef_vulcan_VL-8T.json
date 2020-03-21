@@ -8,7 +8,7 @@
         "UIName": "Vulcan 8T",
         "Id": "chassisdef_vulcan_VL-8T",
         "Name": "Vulcan 8T",
-        "Details": "Stock configuration of Vulcan 8T: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit mod.",
+        "Details": "Vulcan 8T stock configuration: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_vulcan"
     },
     "MovementCapDefID": "movedef_vulcan_VL-2T",
@@ -203,7 +203,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "Stock configuration of Vulcan 8T: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Vulcan 8T stock configuration: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "CenterTorso",

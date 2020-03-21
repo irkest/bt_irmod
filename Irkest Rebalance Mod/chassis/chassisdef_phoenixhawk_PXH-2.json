@@ -8,7 +8,7 @@
         "UIName": "Phoenix Hawk 2",
         "Id": "chassisdef_phoenixhawk_PXH-2",
         "Name": "Phoenix Hawk 2",
-        "Details": "Stock configuration of Phoenix Hawk 2: AC/2 (++), 4 medium lasers (+), vectored thrust kit, 4 jump jets, 8 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Phoenix Hawk 2 stock configuration: AC/2 (++), 4 medium lasers (+), 2 vectored thrust kits, 4 jump jets, 8 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_phoenixhawk"
     },
     "MovementCapDefID": "movedef_phoenixhawk_PXH-1",
@@ -203,7 +203,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "Stock configuration of Phoenix Hawk 2: AC/2 (++), 4 medium lasers (+), vectored thrust kit, 4 jump jets, 8 heatsinks and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Phoenix Hawk 2 stock configuration: AC/2 (++), 4 medium lasers (+), 2 vectored thrust kits, 4 jump jets, 8 heatsinks and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

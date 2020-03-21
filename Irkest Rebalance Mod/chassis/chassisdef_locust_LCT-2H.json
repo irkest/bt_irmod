@@ -8,7 +8,7 @@
         "UIName": "Locust 2H",
         "Id": "chassisdef_locust_LCT-2H",
         "Name": "Locust 2H",
-        "Details": "Stock configuration of Locust 2H: 4 extended-range small lasers, 8 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2H stock configuration: 4 extended-range small lasers, 8 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -205,7 +205,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Fire Support",
-    "YangsThoughts": "Stock configuration of Locust 2H: 4 extended-range small lasers, 8 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Locust 2H stock configuration: 4 extended-range small lasers, 8 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

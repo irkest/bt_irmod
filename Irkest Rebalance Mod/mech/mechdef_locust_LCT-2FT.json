@@ -32,7 +32,7 @@
         "UIName": "Locust LCT-2FT",
         "Id": "mechdef_locust_LCT-2FT",
         "Name": "Locust 2FT",
-        "Details": "Stock configuration of Locust 2FT: 6 flame throwers, 8 jump jets, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2FT stock configuration: 6 flame throwers, 8 jump jets, 2 integrated lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 300000,

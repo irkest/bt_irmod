@@ -32,7 +32,7 @@
         "UIName": "Locust LCT-2D",
         "Id": "mechdef_locust_LCT-2D",
         "Name": "Locust 2D",
-        "Details": "Stock configuration of Locust 2D: 6 machine guns, small laser, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2D stock configuration: 6 machine guns, small laser, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 300000,

@@ -31,7 +31,7 @@
         "UIName": "Locust LCT-2H",
         "Id": "mechdef_locust_LCT-2H",
         "Name": "Locust 2H",
-        "Details": "Stock configuration of Locust 2H: 4 extended-range small lasers, 8 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2H stock configuration: 4 extended-range small lasers, 8 jump jets, integrated cooling system, 2 heatsinks, integrated lightweight structure and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 400000,

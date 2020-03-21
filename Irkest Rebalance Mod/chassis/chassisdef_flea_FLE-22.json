@@ -8,7 +8,7 @@
         "UIName": "Flea 22",
         "Id": "chassisdef_flea_FLE-22",
         "Name": "Flea 22",
-        "Details": "Stock configuration of Flea 22: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures, heatsink and Ceres metals braced cockpit mod.",
+        "Details": "Flea 22 stock configuration: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -198,7 +198,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
-    "YangsThoughts": "Stock configuration of Flea 22: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures, heatsink and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Flea 22 stock configuration: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

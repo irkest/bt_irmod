@@ -28,7 +28,7 @@
         "UIName": "Crab CRB-33",
         "Id": "mechdef_crab_CRB-33",
         "Name": "Crab 33",
-        "Details": "Stock configuration of Crab 33: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
+        "Details": "Crab 33 stock configuration: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
         "Icon": "uixTxrIcon_crab"
     },
     "simGameMechPartCost": 740000,

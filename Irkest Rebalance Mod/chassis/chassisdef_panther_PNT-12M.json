@@ -8,7 +8,7 @@
         "UIName": "Panther 12M",
         "Id": "chassisdef_panther_PNT-12M",
         "Name": "Panther 12M",
-        "Details": "Stock configuration of Panther 12M: 5 medium lasers (+), 5 jump jets, integrated cooling system, 7 heatsinks, lightweight structure and Ceres metals reinforced cockpit mod.",
+        "Details": "Panther 12M stock configuration: 5 medium lasers (+), 5 jump jets, integrated cooling system, 6 heatsinks, lightweight structure and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_panther"
     },
     "MovementCapDefID": "movedef_panther_PNT-9R",
@@ -192,7 +192,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
-    "YangsThoughts": "Stock configuration of Panther 12M: 5 medium lasers (+), 5 jump jets, integrated cooling system, 7 heatsinks, lightweight structure and Ceres metals reinforced cockpit mod.",
+    "YangsThoughts": "Panther 12M stock configuration: 5 medium lasers (+), 5 jump jets, integrated cooling system, 6 heatsinks, lightweight structure and Ceres metals reinforced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

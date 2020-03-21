@@ -8,7 +8,7 @@
         "UIName": "Cicada 5F",
         "Id": "chassisdef_cicada_CDA-5F",
         "Name": "Cicada 5F",
-        "Details": "Stock configuration of Cicada 5F: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit mod.",
+        "Details": "Cicada 5F stock configuration: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_cicada"
     },
     "MovementCapDefID": "movedef_cicada_CDA-2A",
@@ -205,7 +205,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Harasser",
-    "YangsThoughts": "Stock configuration of Cicada 5F: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit mod.",
+    "YangsThoughts": "Cicada 5F stock configuration: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftArm",

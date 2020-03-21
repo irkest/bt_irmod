@@ -32,7 +32,7 @@
         "UIName": "Locust LCT-2P",
         "Id": "mechdef_locust_LCT-2P",
         "Name": "Locust 2P",
-        "Details": "Stock configuration of Locust 2P: PPC, 4 jump jets, CS-1A targeting module, integrated cooling system, 2 lightweight structures and Majesty M M 60KL Rangefinder.",
+        "Details": "Locust 2P stock configuration: PPC, 4 jump jets, CS-1A targeting module, integrated cooling system, 2 lightweight structures and Majesty M M 60KL Rangefinder.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 340000,

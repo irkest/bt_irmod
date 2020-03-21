@@ -31,7 +31,7 @@
         "UIName": "Flea FLE-28",
         "Id": "mechdef_flea_FLE-28",
         "Name": "Flea 28",
-        "Details": "Stock configuration of Flea 28: 2 rapid-fire machine guns, 2 extended-range small lasers, 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Flea 28 stock configuration: 2 rapid-fire machine guns, 2 extended-range small lasers, 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "simGameMechPartCost": 360000,

@@ -205,7 +205,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Fire Support",
-    "YangsThoughts": "Stock configuration of Locust 2AC: 2 AC/2s, 4 jump jets, CS-2R targeting module, 4 integrated lightweight structures and Majesty M M 60KL Rangefinder.",
+    "YangsThoughts": "Locust 2AC stock configuration: 2 AC/2s, 4 jump jets, CS-2R targeting module, 4 integrated lightweight structures and Majesty M M 60KL Rangefinder.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftArm",

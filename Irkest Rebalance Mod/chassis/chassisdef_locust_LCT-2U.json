@@ -8,7 +8,7 @@
         "UIName": "Locust 2U",
         "Id": "chassisdef_locust_LCT-2U",
         "Name": "Locust 2U",
-        "Details": "Stock configuration of Locust 2U: 6 SRM tubes, 2 medium lasers, 6 jump jets, integrated cooling system, 2 heatsinks, 3 lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2U stock configuration: 6 SRM tubes, 2 medium lasers, 6 jump jets, integrated cooling system, 2 heatsinks, 3 lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -205,7 +205,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Fire Support",
-    "YangsThoughts": "Stock configuration of Locust 2U: 6 SRM tubes, 2 medium lasers, 6 jump jets, integrated cooling system, 2 heatsinks, 3 lightweight structures and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Locust 2U stock configuration: 6 SRM tubes, 2 medium lasers, 6 jump jets, integrated cooling system, 2 heatsinks, 3 lightweight structures and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

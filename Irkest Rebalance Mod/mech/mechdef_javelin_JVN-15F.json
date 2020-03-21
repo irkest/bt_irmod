@@ -6,12 +6,12 @@
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_release",
-			"unit_range_short",
-			"unit_jumpOK",
-			"unit_speed_high",
-			"unit_armor_low",
-			"Kurita",
-			"NotTaurianConcordat"
+            "unit_range_short",
+            "unit_jumpOK",
+            "unit_speed_high",
+            "unit_armor_low",
+            "Kurita",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
@@ -26,7 +26,7 @@
         "UIName": "Javelin JVN-15F",
         "Id": "mechdef_javelin_JVN-15F",
         "Name": "Javelin 15F",
-        "Details": "Stock configuration of Javelin 15F: 4 medium lasers, 4 jump jets, 8 heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Javelin 15F stock configuration: 4 medium lasers, 4 jump jets, 8 heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_javelin"
     },
     "simGameMechPartCost": 350000,

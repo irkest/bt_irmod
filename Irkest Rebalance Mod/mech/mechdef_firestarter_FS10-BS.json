@@ -25,7 +25,7 @@
         "UIName": "Firestarter FS10-BS",
         "Id": "mechdef_firestarter_FS10-BS",
         "Name": "Firestarter 10-BS",
-        "Details": "Stock configuration of Firestarter FS10-BS: 7 rapid-fire machine guns (+), 2 vectored thrust kits, 4 jump jets, 2 heatsinks and Ceres metals reinforced cockpit mod.",
+        "Details": "Firestarter 10-BS stock configuration: 6 rapid-fire machine guns (+), 2 vectored thrust kits, 4 jump jets and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_firestarter"
     },
     "simGameMechPartCost": 530000,

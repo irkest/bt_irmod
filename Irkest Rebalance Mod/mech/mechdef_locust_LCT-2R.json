@@ -32,7 +32,7 @@
         "UIName": "Locust LCT-2R",
         "Id": "mechdef_locust_LCT-2R",
         "Name": "Locust 2R",
-        "Details": "Stock configuration of Locust 2R: 12 SRM tubes, 6 jump jets, integrated cooling system, 3 lightweight structures and Ceres metals braced cockpit mod.",
+        "Details": "Locust 2R stock configuration: 12 SRM tubes, 6 jump jets, integrated cooling system, 3 lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_locust"
     },
     "simGameMechPartCost": 320000,

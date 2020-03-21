@@ -8,7 +8,7 @@
         "UIName": "Flea 25",
         "Id": "chassisdef_flea_FLE-25",
         "Name": "Flea 25",
-        "Details": "Stock configuration of Flea 25: 3 extended-range small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Flea 25 stock configuration: 3 extended-range small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "MovementCapDefID": "movedef_flea_FLE-15",
@@ -208,7 +208,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Stock configuration of Flea 25: 3 extended-range small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Flea 25 stock configuration: 3 extended-range small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

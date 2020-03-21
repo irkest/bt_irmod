@@ -8,7 +8,7 @@
         "UIName": "Assassin 41",
         "Id": "chassisdef_assassin_ASN-41",
         "Name": "Assassin 41",
-        "Details": "Stock configuration of ASN-41: 10 SRM tubes, 2 medium lasers, 7 jump jets, 3 heatsinks, intercept system, lightweight structure and Ceres metals braced cockpit mod.",
+        "Details": "'Assassin 41' stock configuration: 10 SRM tubes, 2 medium lasers, 7 jump jets, 3 heatsinks, intercept system, lightweight structure and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_assassin"
     },
     "MovementCapDefID": "movedef_assassin_ASN-21",
@@ -194,7 +194,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout / Hunter-Killer",
-    "YangsThoughts": "Stock configuration of ASN-41: 10 SRM tubes, 2 medium lasers, 7 jump jets, 3 heatsinks, intercept system, lightweight structure and Ceres metals braced cockpit mod.",
+    "YangsThoughts": "Assassin 41 stock configuration: 10 SRM tubes, 2 medium lasers, 7 jump jets, 3 heatsinks, intercept system, lightweight structure and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
