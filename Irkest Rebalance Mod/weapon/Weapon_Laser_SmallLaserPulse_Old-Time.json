@@ -37,7 +37,7 @@
         "UIName" : "Old-Time Small Pulse Laser",
         "Id" : "Weapon_Laser_SmallLaserPulse_Old-Time",
         "Name" : "Old-Time Small Pulse Laser",
-        "Details" : "An old small pulse laser has significantly greater damage, but heats up more compared to modern ones.",
+        "Details" : "The old-time small pulse laser makes significantly greater damage, but heats up more in comparison with the modern ones.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ 1 Acc.",

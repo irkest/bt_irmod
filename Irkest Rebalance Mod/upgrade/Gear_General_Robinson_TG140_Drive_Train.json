@@ -11,7 +11,7 @@
         "UIName" : "Drive Train TG 140",
         "Id" : "Gear_General_Robinson_TG140_Drive_Train",
         "Name" : "Robinson Standard BattleWorks TG 140 Improved Drive Train",
-        "Details" : "Gives the unit deploying this +1 initiative and + 1 Injury Resist.",
+        "Details" : "Drive Train TG 140 adds +1 initiative and +1 injury resist to the unit deploying it.",
         "Icon" : "uixSvgIcon_special_Equipment"
     },
     "BonusValueA" : "+ 1 Initiative for this unit",

@@ -9,7 +9,7 @@
         "UIName" : "Integrated cooling system",
         "Id" : "Gear_Integrated_Cooling_System_Standard",
         "Name" : "Integrated cooling system",
-        "Details" : "The integrated system reduces the heating of the robot very efficiently.",
+        "Details" : "Integrated cooling system reduces mech heating very efficiently.",
         "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
     },
     "BonusValueA" : " - 40% Weapon Heat",

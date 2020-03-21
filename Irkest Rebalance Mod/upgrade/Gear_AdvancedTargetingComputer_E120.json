@@ -8,7 +8,7 @@
         "UIName" : "ATC E120",
         "Id" : "Gear_Advanced_Targeting_Computer_E120",
         "Name" : "ATC E120",
-        "Details" : "The advanced targeting computer E120 increases weapons accuracy and improves the reliability of Called Shots executed by the mech pilot.",
+        "Details" : "Advanced targeting computer E120 increases weapons accuracy and improves the reliability of Called Shots executed by the mech pilot.",
         "Icon" : "UixSvgIcon_specialEquip_System"
     },
     "BonusValueA" : "+ Called Shot",

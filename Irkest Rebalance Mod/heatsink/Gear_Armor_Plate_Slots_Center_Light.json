@@ -9,7 +9,7 @@
         "UIName" : "Armor plate slots: center torso",
         "Id" : "Gear_Armor_Plate_Slots_Center_Light",
         "Name" : "Armor plate slots: center torso",
-        "Details" : "The additional torso slots for armor plates allow to increase armor by 20 units in front and 10 units in back.",
+        "Details" : "Additional torso slots for armor plates allow to increase armor by 20 units in front and 10 units in back.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 20 armor (front)",

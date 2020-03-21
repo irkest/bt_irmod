@@ -8,7 +8,7 @@
         "UIName" : "The CS-1A targeting module",
         "Id" : "Gear_General_CS-1A_Targeting_Module",
         "Name" : "The CS-1A targeting module",
-        "Details" : "The CS-1A targeting module increases the accuracy of energy weapons and improves the reliability of Called Shots executed by the mech pilot.",
+        "Details" : "The CS-1A targeting module increases the energy weapons accuracy and improves the reliability of Called Shots executed by the mech pilot.",
         "Icon" : "uixSvgIcon_special_Equipment"
     },
     "BonusValueA" : "+ Called Shot",

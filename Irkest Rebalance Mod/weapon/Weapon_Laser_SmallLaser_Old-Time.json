@@ -37,7 +37,7 @@
         "UIName" : "Old-Time Small Laser",
         "Id" : "Weapon_Laser_SmallLaser_Old-Time",
         "Name" : "Old-Time Small Laser",
-        "Details" : "An old-time small laser has increased damage and range compared to modern ones.",
+        "Details" : "The old-time small laser increases damage and range in comparison with the modern ones.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ 2 Acc.",

@@ -9,7 +9,7 @@
         "UIName" : "Lightweight Structure",
         "Id" : "Gear_Lightweight_Structure_Standard",
         "Name" : "Lightweight Structure",
-        "Details" : "The lightweight structure reduces the weight of the mech, but makes it impossible to use the occupied space with something else.",
+        "Details" : "Lightweight structure reduces the weight of the mech, but makes it impossible to use the occupied space with something else.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
     "BonusValueA" : "- 1 Ton",

@@ -9,7 +9,7 @@
         "UIName" : "Armor plate slots: right/left torso",
         "Id" : "Gear_Armor_Plate_Slots_RightLeft_Light",
         "Name" : "Armor plate slots: right/left torso",
-        "Details" : "The additional torso slots for armor plates allow to increase armor by 15 units in front and 5 units in back.",
+        "Details" : "Additional torso slots for armor plates allow to increase armor by 15 units in front and 5 units in back.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 15 armor (front)",

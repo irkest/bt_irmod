@@ -9,7 +9,7 @@
         "UIName" : "Armor plate slots: leg",
         "Id" : "Gear_Armor_Plate_Slots_Leg_Light",
         "Name" : "Armor plate slots: leg",
-        "Details" : "The additional leg slots for armor plates allow to increase armor by 15 units.",
+        "Details" : "Additional leg slots for armor plates allow to increase armor by 15 units.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 15 armor",

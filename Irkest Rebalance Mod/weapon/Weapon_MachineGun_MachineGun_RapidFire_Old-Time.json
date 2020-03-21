@@ -37,7 +37,7 @@
         "UIName" : "Old-Time Machine Gun",
         "Id" : "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
         "Name" : "Old-Time Machine Gun",
-        "Details" : "An old-time machine gun has a high rate of fire and accuracy compared to modern ones.",
+        "Details" : "The old-time machine gun has a high rate of fire and accuracy in comparison with the modern ones.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ 2 Acc.",
