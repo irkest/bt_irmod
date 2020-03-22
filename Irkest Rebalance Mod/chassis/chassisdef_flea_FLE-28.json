@@ -93,7 +93,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],

@@ -10,6 +10,7 @@
         { "Type": "JumpJetDef", "Path": "jumpjet", "AddToDB": true },
         { "Type": "HeatSinkDef", "Path": "heatsink", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrade", "AddToDB": true },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemcollection", "ShouldAppendText": false }

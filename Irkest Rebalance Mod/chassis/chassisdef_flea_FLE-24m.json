@@ -11,7 +11,7 @@
         "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 4 old-time machine guns, additional armor plates, 6 jump jets, 2 targeting baffles and StarCorps enhanced comms system.",
         "Icon": "uixTxrIcon_flea"
     },
-    "MovementCapDefID": "movedef_flea_FLE-15",
+    "MovementCapDefID": "movedef_flea_FLE-2Xm",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_flea",
     "PrefabIdentifier": "chrPrfMech_fleaBase-001",

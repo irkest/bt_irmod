@@ -16,7 +16,7 @@
     "ChassisID": "chassisdef_flea_FLE-28m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4100000,
+        "Cost": 4640000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,10 +24,10 @@
         "UIName": "Flea FLE-28 (m)",
         "Id": "mechdef_flea_FLE-28m",
         "Name": "Flea 28 (m)",
-        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time machine guns, 2 old-time small lasers, 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: old-time medium auto laser, 6 jump jets, 2 targeting baffles, 2 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 410000,
+    "simGameMechPartCost": 460000,
     "Version": 1,
     "Locations": [
         {
@@ -116,22 +116,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_Old-Time",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserAuto_Old-Time",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -142,28 +131,6 @@
             "ComponentDefID": "Gear_JumpJet_Generic_Light",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -193,22 +160,22 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_Old-Time",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_Old-Time",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

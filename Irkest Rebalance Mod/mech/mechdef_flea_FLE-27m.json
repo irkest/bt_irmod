@@ -24,7 +24,7 @@
         "UIName": "Flea FLE-27 (m)",
         "Id": "mechdef_flea_FLE-27m",
         "Name": "Flea 27 (m)",
-        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time small pulse lasers, 6 jump jets, 2 targeting baffles, 3 heatsinks and Ceres metals braced cockpit mod.",
+        "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time small pulse lasers, 6 jump jets, 2 targeting baffles, 3 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
     "simGameMechPartCost": 520000,
