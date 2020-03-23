@@ -9,14 +9,15 @@
             "unit_range_short",
             "unit_speed_high",
             "unit_armor_high",
-            "unit_jumpOK"
+            "unit_jumpOK",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_flea_FLE-27m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5180000,
+        "Cost": 5540000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -27,7 +28,7 @@
         "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time small pulse lasers, 6 jump jets, 2 targeting baffles, 3 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 520000,
+    "simGameMechPartCost": 550000,
     "Version": 1,
     "Locations": [
         {
@@ -139,7 +140,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -172,7 +173,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -183,7 +184,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

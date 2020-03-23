@@ -9,14 +9,15 @@
             "unit_range_short",
             "unit_speed_high",
             "unit_armor_high",
-            "unit_jumpOK"
+            "unit_jumpOK",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_flea_FLE-25m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5300000,
+        "Cost": 5780000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -27,7 +28,7 @@
         "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 3 old-time small lasers, 6 jump jets, 2 targeting baffles, 4 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 530000,
+    "simGameMechPartCost": 580000,
     "Version": 1,
     "Locations": [
         {
@@ -128,7 +129,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -139,7 +140,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -161,7 +162,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -172,7 +173,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

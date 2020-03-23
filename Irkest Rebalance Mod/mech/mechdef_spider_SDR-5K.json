@@ -6,30 +6,30 @@
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_release",
-			"unit_range_short",
-			"unit_jumpOK",
-			"unit_speed_high",
-			"unit_armor_low",
-			"Kurita",
-			"NotTaurianConcordat"
+            "unit_range_short",
+            "unit_jumpOK",
+            "unit_speed_high",
+            "unit_armor_low",
+            "Kurita",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_spider_SDR-5K",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3050000,
+        "Cost": 3360000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Spider SDR-5K",
         "Id": "mechdef_spider_SDR-5K",
-        "Name": "Spider",
+        "Name": "Spider 5K",
         "Details": "The 5K Spider variant keeps the extreme maneuverability of its more common 5V cousin but adds some Machine Gun weaponry for close-in work. It's still got very little armor, so it works best as a scout and spotter.",
         "Icon": "uixTxrIcon_spider"
     },
-    "simGameMechPartCost": 310000,
+    "simGameMechPartCost": 340000,
     "Version": 1,
     "Locations": [
         {
