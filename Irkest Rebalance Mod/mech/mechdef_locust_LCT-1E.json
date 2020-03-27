@@ -19,7 +19,7 @@
     "ChassisID": "chassisdef_locust_LCT-1E",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2160000,
+        "Cost": 2490000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -30,7 +30,7 @@
         "Details": "The 1E Locust packs only Lasers for its armament, for better overall damage without the risk of ammo explosions. It runs quite a bit hotter than other variants, though, so it works best with hit-and-run attacks.",
         "Icon": "uixTxrIcon_locust"
     },
-    "simGameMechPartCost": 220000,
+    "simGameMechPartCost": 250000,
     "Version": 1,
     "Locations": [
         {
@@ -142,17 +142,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
