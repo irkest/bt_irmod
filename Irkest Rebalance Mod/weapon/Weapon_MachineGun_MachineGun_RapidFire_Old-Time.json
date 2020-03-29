@@ -3,11 +3,11 @@
     "Type" : "MachineGun",
     "WeaponSubType" : "MachineGun",
     "MinRange" : 0,
-    "MaxRange" : 180,
+    "MaxRange" : 195,
     "RangeSplit" : [
-        120,
-        120,
-        180
+        130,
+        130,
+        195
     ],
     "ammoCategoryID" : "MG",
     "StartingAmmoCapacity" : 0,

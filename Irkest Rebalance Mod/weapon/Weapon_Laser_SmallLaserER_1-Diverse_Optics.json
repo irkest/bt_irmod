@@ -3,11 +3,11 @@
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaserER",
     "MinRange" : 0,
-    "MaxRange" : 180,
+    "MaxRange" : 195,
     "RangeSplit" : [
-        120,
-        120,
-        180
+        130,
+        130,
+        195
     ],
     "ammoCategoryID" : "NotSet",
     "StartingAmmoCapacity" : 0,
