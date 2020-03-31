@@ -7,20 +7,20 @@
             "unit_ready",
             "unit_lance_tank",
             "unit_role_brawler",
-			"unit_range_short",
-			"unit_indirectFire",
-			"unit_armor_high",
-			"unit_speed_low",
-			"Davion",
-			"NotMarik",
-			"NotMagistracyOfCanopus"	
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_armor_high",
+            "unit_speed_low",
+            "Davion",
+            "NotMarik",
+            "NotMagistracyOfCanopus"    
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_centurion_CN9-AL",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5630000,
+        "Cost": 5680000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
@@ -31,7 +31,7 @@
         "Details": "The AL variant of the Centurion tends to trade the larger burst damage of an Autocannon for more Energy weaponry and heavier armor. ALs can take an incredible amount of damage for their size but still pack a good punch.",
         "Icon": "uixTxrIcon_centurion"
     },
-    "simGameMechPartCost": 560000,
+    "simGameMechPartCost": 570000,
     "Version": 1,
     "Locations": [
         {
@@ -110,21 +110,10 @@
     "inventory": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
