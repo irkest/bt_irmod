@@ -20,7 +20,7 @@
     "InitialTonnage": 18,
     "weightClass": "MEDIUM",
     "BattleValue": 3610000,
-    "Heatsinks": 6,
+    "Heatsinks": 0,
     "TopSpeed": 210,
     "TurnRadius": 90,
     "MaxJumpjets": 8,
