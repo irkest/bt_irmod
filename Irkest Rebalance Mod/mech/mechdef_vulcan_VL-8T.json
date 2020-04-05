@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_vulcan_VL-8T",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4920000,
+        "Cost": 6820000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -10,10 +10,10 @@
         "UIName": "Vulcan VL-8T",
         "Id": "mechdef_vulcan_VL-8T",
         "Name": "Vulcan 8T",
-        "Details": "Vulcan 8T stock configuration: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
+        "Details": "Vulcan 8T stock configuration: 4 small pulse lasers (++), 6 jump jets, 3 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_vulcan"
     },
-    "simGameMechPartCost": 490000,
+    "simGameMechPartCost": 680000,
     "Version": 1,
     "Locations": [
         {
@@ -103,7 +103,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-ExoStar",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -114,7 +114,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-ExoStar",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -124,44 +124,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-ExoStar",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-ExoStar",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-ExoStar",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-ExoStar",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -169,18 +136,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-Intek",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_2-Intek",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -191,6 +147,17 @@
         },
         {
             "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",

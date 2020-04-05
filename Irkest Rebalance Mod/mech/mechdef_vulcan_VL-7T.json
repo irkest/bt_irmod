@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_vulcan_VL-7T",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4900000,
+        "Cost": 5720000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -10,10 +10,10 @@
         "UIName": "Vulcan VL-7T",
         "Id": "mechdef_vulcan_VL-7T",
         "Name": "Vulcan 7T",
-        "Details": "Vulcan 7T stock configuration: 8 machine guns (++), 6 jump jets, close-quarters combat suite and Ceres metals braced cockpit.",
+        "Details": "Vulcan 7T stock configuration: 2 extended range small lasers (+), 3 rapid-fire machine guns (++), 6 jump jets, heatsink, close-quarters combat suite and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_vulcan"
     },
-    "simGameMechPartCost": 490000,
+    "simGameMechPartCost": 570000,
     "Version": 1,
     "Locations": [
         {
@@ -103,7 +103,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-Brigadier",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -114,7 +114,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-Brigadier",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -124,44 +124,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-Brigadier",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-Brigadier",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-Brigadier",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-Brigadier",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -169,7 +136,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-VMI",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -180,7 +147,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_2-VMI",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -202,9 +169,9 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

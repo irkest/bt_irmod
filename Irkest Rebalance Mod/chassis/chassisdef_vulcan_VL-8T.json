@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 3700000,
+        "Cost": 3900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Vulcan 8T",
         "Id": "chassisdef_vulcan_VL-8T",
         "Name": "Vulcan 8T",
-        "Details": "Vulcan 8T stock configuration: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
+        "Details": "Vulcan 8T stock configuration: 4 small pulse lasers (+), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_vulcan"
     },
     "MovementCapDefID": "movedef_vulcan_VL-2T",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_vulcanBase-001",
     "PrefabBase": "vulcan",
     "Tonnage": 40,
-    "InitialTonnage": 18.5,
+    "InitialTonnage": 17.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 6,
     "MaxJumpjets": 6,
@@ -71,11 +71,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -102,7 +98,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -203,7 +199,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "Vulcan 8T stock configuration: 8 small lasers (++), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
+    "YangsThoughts": "Vulcan 8T stock configuration: 4 small lasers (+), 6 jump jets, 2 heatsinks, close-quarters combat suite and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "CenterTorso",
