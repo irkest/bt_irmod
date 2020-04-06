@@ -5,32 +5,45 @@
             "unit_light",
             "unit_lance_vanguard",
             "unit_role_scout",
+            "unit_range_short",
+            "unit_role_activeprobe",
+            "unit_electronicWarfare",
             "unit_release",
-            "unit_range_medium",
             "unit_jumpOK",
             "unit_speed_high",
-            "unit_armor_low",
+            "Davion",
             "Kurita",
+            "Liao",
             "Marik",
-            "NotTaurianConcordat"
+            "Steiner",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_spider_SDR-5V",
+    "ChassisID": "chassisdef_spider_SDR-6S",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3580000,
-        "Rarity": 1,
+        "Cost": 4520000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Spider SDR-5V",
-        "Id": "mechdef_spider_SDR-5V",
-        "Name": "Spider 5V",
-        "Details": "The Spider 5V is hands down the most maneuverable 'Mech you can field\u2026 but it's made of paper. It's an excellent scout, though, and can even jump into the rear arc of most enemies for surprise back shots.",
+        "UIName": "Spider SDR-6S",
+        "Id": "mechdef_spider_SDR-6S",
+        "Name": "Spider 6S",
+        "Details": "The Spider 6S stock configuration: 4 rapid-fire machine guns (++), 6 jump jets, R-1 active probe, 3 lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_spider"
     },
-    "simGameMechPartCost": 360000,
+    "RequiredToSpawnCompanyTags" : {
+        "items" : [
+            "flashpoint_uw1_complete"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "MinAppearanceDate" : "3027-01-01T00:00:00Z",            
+    "simGameMechPartCost": 450000,
     "Version": 1,
     "Locations": [
         {
@@ -45,71 +58,104 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 40,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 65,
-            "CurrentRearArmor": 25,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 65,
-            "AssignedRearArmor": 25
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "CenterTorso",
-            "CurrentArmor": 90,
+            "CurrentArmor": 70,
             "CurrentRearArmor": 35,
-            "CurrentInternalStructure": 50,
-            "AssignedArmor": 90,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 70,
             "AssignedRearArmor": 35
         },
         {
             "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 65,
-            "CurrentRearArmor": 25,
+            "CurrentArmor": 70,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 35,
-            "AssignedArmor": 65,
-            "AssignedRearArmor": 25
+            "AssignedArmor": 70,
+            "AssignedRearArmor": 35
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 25,
-            "AssignedArmor": 40,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 65,
+            "CurrentArmor": 70,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 35,
-            "AssignedArmor": 65,
+            "AssignedArmor": 70,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 65,
+            "CurrentArmor": 70,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 35,
-            "AssignedArmor": 65,
+            "AssignedArmor": 70,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -120,73 +166,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_RapidFire_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -196,15 +176,26 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
+            "SimGameUID" : null,
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
         },
         {
             "MountedLocation": "RightTorso",
@@ -219,20 +210,9 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

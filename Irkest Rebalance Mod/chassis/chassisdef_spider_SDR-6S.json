@@ -1,14 +1,14 @@
 {
     "Description": {
         "Cost": 2600000,
-        "Rarity": 1,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Spider 5V",
-        "Id": "chassisdef_spider_SDR-5V",
-        "Name": "Spider 5V",
-        "Details": "The Spider 5V is hands down the most maneuverable 'Mech you can field\u2026 but it's made of paper. It's an excellent scout, though, and can even jump into the rear arc of most enemies for surprise back shots.",
+        "UIName": "Spider 6S",
+        "Id": "chassisdef_spider_SDR-6S",
+        "Name": "Spider 6S",
+        "Details": "The Spider 6S stock configuration: 4 rapid-fire machine guns (++), 6 jump jets, R-1 active probe, 3 lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_spider"
     },
     "MovementCapDefID": "movedef_spider_SDR-5V",
@@ -17,13 +17,13 @@
     "PrefabIdentifier": "chrPrfMech_spiderBase-001",
     "PrefabBase": "spider",
     "Tonnage": 30,
-    "InitialTonnage": 12,
+    "InitialTonnage": 11,
     "weightClass": "LIGHT",
     "BattleValue": 3907000,
     "Heatsinks": 0,
     "TopSpeed": 85,
     "TurnRadius": 90,
-    "MaxJumpjets": 8,
+    "MaxJumpjets": 6,
     "Stability": 100,
     "StabilityDefenses": [
         0,
@@ -86,10 +86,6 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -191,13 +187,13 @@
             "z": 0.5
         }
     ],
-    "VariantName": "SDR-5V",
+    "VariantName": "SDR-6S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Extremely Maneuverable Scout",
-    "YangsThoughts": "The Spider 5V is hands down the most maneuverable 'Mech you can field\u2026 but it's made of paper. It's an excellent scout, though, and can even jump into the rear arc of most enemies for surprise back shots.",
+    "StockRole": "Recon & Electronic Warfare",
+    "YangsThoughts": "The Spider 6S stock configuration: 4 rapid-fire machine guns (++), 6 jump jets, R-1 active probe, 3 lightweight structures and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftArm	",
@@ -216,6 +212,18 @@
             "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
             "SimGameUID" : "",
             "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Gear_Sensor_Release_ActiveProbe",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
             "IsFixed" : true,
             "GUID" : null,
