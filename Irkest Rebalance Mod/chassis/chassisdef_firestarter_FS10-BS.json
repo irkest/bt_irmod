@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 4200000,
+        "Cost": 3700000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Firestarter 10-BS",
         "Id": "chassisdef_firestarter_FS10-BS",
         "Name": "Firestarter 10-BS",
-        "Details": "Firestarter 10-BS stock configuration: 6 rapid-fire machine guns (+), 2 vectored thrust kits, 4 jump jets and Ceres metals reinforced cockpit.",
+        "Details": "Firestarter 10-BS stock configuration: 4 medium lasers (+), 2 vectored thrust kits, 4 jump jets, 2 lightweight structures, 6 heatsinks and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_firestarter"
     },
     "MovementCapDefID": "movedef_firestarter_FS9-H",
@@ -64,7 +64,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -82,7 +82,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -126,7 +126,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -148,7 +148,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -231,11 +231,11 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
-    "YangsThoughts": "Firestarter 10-BS stock configuration: 6 rapid-fire machine guns (+), 2 vectored thrust kits, 4 jump jets and Ceres metals reinforced cockpit.",
+    "YangsThoughts": "Firestarter 10-BS stock configuration: 4 medium lasers (+), 2 vectored thrust kits, 4 jump jets, 2 lightweight structures, 6 heatsinks and Ceres metals reinforced cockpit.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit",
+            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit_Mk2",
             "SimGameUID" : "",
             "ComponentDefType" : "JumpJet",
             "HardpointSlot" : -1,
@@ -247,7 +247,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit",
+            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit_Mk2",
             "SimGameUID" : "",
             "ComponentDefType" : "JumpJet",
             "HardpointSlot" : -1,

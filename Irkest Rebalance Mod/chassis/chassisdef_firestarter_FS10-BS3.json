@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 4200000,
+        "Cost": 3700000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -82,7 +82,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -126,7 +126,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -235,7 +235,7 @@
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit",
+            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit_Mk2",
             "SimGameUID" : "",
             "ComponentDefType" : "JumpJet",
             "HardpointSlot" : -1,
@@ -247,7 +247,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit",
+            "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit_Mk2",
             "SimGameUID" : "",
             "ComponentDefType" : "JumpJet",
             "HardpointSlot" : -1,
