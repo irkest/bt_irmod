@@ -1,19 +1,20 @@
 {
-    "ChassisID": "chassisdef_warhammer_WHM-6D",
+    "ChassisID": "chassisdef_warhammer_WHM-BW",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9180000,
-        "Rarity": 1,
+        "Cost": 15040000,
+        "Rarity": 99,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Warhammer WHM-6D",
-        "Id": "mechdef_warhammer_WHM-6D",
-        "Name": "Warhammer",
-        "Details": "The 6D Warhammer seeks to optimize the base model for survivability by dropping a few weapons and piling on the armor. It definitely has more staying power, which lets it smash more PPC bolts into its targets.",
+        "UIName": "Black Widow",
+        "Id": "mechdef_warhammer_WHM-BW",
+        "Name": "Black Widow",
+        "Details": "The Warhammer 6R is a legendary 'Mech that's often found in the thick of combat, hurling PPC bolts at its foes. It's not the most heavily armored brawler but it tends to give at least as good as it gets, especially with any Energy-based weapons.",
         "Icon": "uixTxrIcon_warhammer"
     },
-    "simGameMechPartCost": 920000,
+    "prefabOverride" : "chrPrfMech_warhammer_BlackWidowBase-001",
+    "simGameMechPartCost": 1500000,
     "Version": 1,
     "Locations": [
         {
@@ -92,7 +93,7 @@
     "inventory": [
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_2-Ceres_Arms",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -103,7 +104,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -114,10 +115,54 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_SRM_SRM6_2-Valiant",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -125,7 +170,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_2-Ceres_Arms",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -136,7 +181,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -147,10 +192,65 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Bulk-Bank",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -158,75 +258,9 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -235,29 +269,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -268,18 +280,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -298,8 +299,7 @@
             "unit_role_brawler",
             "unit_range_medium",
             "unit_speed_low",
-            "unit_armor_high",
-            "Davion"
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     }

@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_warhammer_WHM-6R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 8360000,
+        "Cost": 8960000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -13,7 +13,7 @@
         "Details": "The 6R Warhammer is a legendary 'Mech that's often found in the thick of combat, hurling PPC bolts at its foes. It's not the most heavily armored brawler, but it tends to give at least as good as it gets, especially with any Energy-based weapons.",
         "Icon": "uixTxrIcon_warhammer"
     },
-    "simGameMechPartCost": 840000,
+    "simGameMechPartCost": 900000,
     "Version": 1,
     "Locations": [
         {
