@@ -1,6 +1,6 @@
 {
     "Description" : {
-        "Cost" : 500000,
+        "Cost" : 700000,
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Hartford",
@@ -12,7 +12,7 @@
         "Icon" : "UixSvgIcon_specialEquip_System"
     },
     "BonusValueA" : "+ Called Shot",
-    "BonusValueB" : "+ 1 Acc. (Energy)",
+    "BonusValueB" : "+ 1 Acc. (All)",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -38,8 +38,8 @@
             "Description" :
             {
                 "Id" : "StatusEffect-LCM-CalledShotBonus",
-                "Name" : "LANCE COMMAND MODULE",
-                "Details" : "Called Shots executed by this unit are more reliable.",
+                "Name" : "ATC E120: + Called Shot",
+                "Details" : "Called Shots executed by this unit are improved by [AMT].",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "statisticData" : 
@@ -56,33 +56,21 @@
         {
             "durationData" : {
                 "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
+                "stackLimit" : 1
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
                 "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
-                "Name" : "ENERGY WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Energy weapon attacks have their hit improved by [AMT].",
+                "Id" : "StatusEffect-ACM-ToHit",
+                "Name" : "ATC E120: + 1 Acc. (All)",
+                "Details" : "All weapon attacks have their hit improved by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
-            "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
@@ -92,22 +80,17 @@
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Energy",
+                "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
             },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
+            "nature" : "Buff"
         }
     ],
     "ComponentTags" : {
         "items" : [
-			"BUILT-IN"
+            "BUILT-IN"
         ],
         "tagSetSourceFile" : ""
     }

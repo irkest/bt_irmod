@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_marauder_MAD-2R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 19870000,
+        "Cost": 20870000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -13,7 +13,7 @@
         "Details": "The MAD-2R is the Marauder variant that was given to the SLDF's Royal Divisions before the fall of the Star League. Like most Royal units, it is exceedingly rare, and comes equipped with advanced weaponry and components.",
         "Icon": "uixTxrIcon_marauder"
     },
-    "simGameMechPartCost": 1990000,
+    "simGameMechPartCost": 2090000,
     "Version": 1,
     "Locations": [
         {

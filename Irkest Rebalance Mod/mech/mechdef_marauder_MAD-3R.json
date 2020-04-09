@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_marauder_MAD-3R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9030000,
+        "Cost": 10030000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -13,7 +13,7 @@
         "Details": "Perhaps one of the best-known 'Mechs in existence, the Marauder makes a worthy opponent on the battlefield. It's no slouch at midrange combat, but experienced MechWarriors will hang back at longer ranges to let its PPCs and AC/5 punish targets from afar.",
         "Icon": "uixTxrIcon_marauder"
     },
-    "simGameMechPartCost": 900000,
+    "simGameMechPartCost": 1000000,
     "Version": 1,
     "Locations": [
         {

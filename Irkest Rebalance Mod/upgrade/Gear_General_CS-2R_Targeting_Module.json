@@ -41,13 +41,13 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StatusEffect-RangefinderSuite-RecoilPenaltyReduce",
-                "Name" : "RECOIL PENALTIES REDUCED",
+                "Name" : "CS-2R: -2 Recoil / Range Penalty",
                 "Details" : "Removes long range hit penalties.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
@@ -89,7 +89,7 @@
             "Description" :
             {
                 "Id" : "StatusEffect-LCM-CalledShotBonus",
-                "Name" : "LANCE COMMAND MODULE",
+                "Name" : "CS-2R: + Called Shot",
                 "Details" : "Called Shots executed by this unit are more reliable.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },

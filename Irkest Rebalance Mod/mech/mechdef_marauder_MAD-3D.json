@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_marauder_MAD-3D",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9080000,
+        "Cost": 10080000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -13,7 +13,7 @@
         "Details": "The MAD-3D exchanges the Marauder's Autocannon for an all-energy loadout, thus sidestepping the risk of ammunition explosions. It also packs on extra heatsinks to help offset the increased heat generation.",
         "Icon": "uixTxrIcon_marauder"
     },
-    "simGameMechPartCost": 910000,
+    "simGameMechPartCost": 1010000,
     "Version": 1,
     "Locations": [
         {

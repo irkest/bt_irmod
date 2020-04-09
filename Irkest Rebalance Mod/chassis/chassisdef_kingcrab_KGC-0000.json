@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 10900000,
+        "Cost": 12000000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -17,10 +17,10 @@
     "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
     "PrefabBase": "kingcrab",
     "Tonnage": 100,
-    "InitialTonnage": 34,
+    "InitialTonnage": 32,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
-    "Heatsinks": 0,
+    "Heatsinks": 21,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -52,9 +52,9 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 45,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "InternalStructure": 21
         },
         {
             "Location": "LeftArm",
@@ -74,9 +74,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 170,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 105
         },
         {
             "Location": "LeftTorso",
@@ -100,18 +100,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+            "MaxArmor": 260,
+            "MaxRearArmor": 130,
+            "InternalStructure": 130
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 310,
-            "MaxRearArmor": 155,
-            "InternalStructure": 155
+            "MaxArmor": 400,
+            "MaxRearArmor": 200,
+            "InternalStructure": 200
         },
         {
             "Location": "RightTorso",
@@ -135,9 +135,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+            "MaxArmor": 260,
+            "MaxRearArmor": 130,
+            "InternalStructure": 130
         },
         {
             "Location": "RightArm",
@@ -157,27 +157,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 170,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 105
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
+            "MaxArmor": 260,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 130
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
+            "MaxArmor": 260,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 130
         }
     ],
     "LOSSourcePositions": [

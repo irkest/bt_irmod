@@ -2,7 +2,7 @@
     "ChassisID": "chassisdef_marauder_MAD-CM",
     "HeraldryID": null,
     "Description": {
-        "Cost": 15560000,
+        "Cost": 16560000,
         "Rarity": 99,
         "Purchasable": true,
         "Manufacturer": null,
@@ -14,7 +14,7 @@
         "Icon": "uixTxrIcon_marauder"
     },
     "prefabOverride" : "chrPrfMech_marauder_BlackWidowBase-001",
-    "simGameMechPartCost": 1560000,
+    "simGameMechPartCost": 1660000,
     "Version": 1,
     "Locations": [
         {
