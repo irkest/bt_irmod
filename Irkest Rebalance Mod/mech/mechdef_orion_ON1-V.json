@@ -21,7 +21,7 @@
     "ChassisID": "chassisdef_orion_ON1-V",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9020000,
+        "Cost": 9410000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -32,7 +32,7 @@
         "Details": "The Orion V trades some of the armor the K model is known for to mount additional weaponry. This increases its overall damage output, but many pilots consider the loss of armor to be risky.",
         "Icon": "uixTxrIcon_orion"
     },
-    "simGameMechPartCost": 900000,
+    "simGameMechPartCost": 940000,
     "Version": 1,
     "Locations": [
         {
@@ -110,8 +110,19 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Reinforced",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-ExoStar",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -122,7 +133,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM6_1-Holly",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -133,7 +144,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_1-Telos",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -199,7 +210,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_AC10_1-Defiance",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -265,7 +276,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-ExoStar",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -276,7 +287,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,

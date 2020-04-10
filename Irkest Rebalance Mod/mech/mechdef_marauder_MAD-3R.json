@@ -2,18 +2,18 @@
     "ChassisID": "chassisdef_marauder_MAD-3R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10030000,
+        "Cost": 10370000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Marauder MAD-3R",
         "Id": "mechdef_marauder_MAD-3R",
-        "Name": "Marauder",
+        "Name": "Marauder 3R",
         "Details": "Perhaps one of the best-known 'Mechs in existence, the Marauder makes a worthy opponent on the battlefield. It's no slouch at midrange combat, but experienced MechWarriors will hang back at longer ranges to let its PPCs and AC/5 punish targets from afar.",
         "Icon": "uixTxrIcon_marauder"
     },
-    "simGameMechPartCost": 1000000,
+    "simGameMechPartCost": 1040000,
     "Version": 1,
     "Locations": [
         {
@@ -91,8 +91,19 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-ExoStar",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -103,7 +114,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_1-Donal",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -114,7 +125,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-ExoStar",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -125,7 +136,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_1-Donal",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -136,7 +147,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_AC5_1-Kali_Yama",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

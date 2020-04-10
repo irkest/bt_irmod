@@ -17,7 +17,7 @@
     "ChassisID": "chassisdef_orion_ON1-K",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9200000,
+        "Cost": 9580000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
@@ -28,7 +28,7 @@
         "Details": "The Orion K was the first true heavy 'Mech. As a multirole brawler, the Orion can engage enemies at a variety of ranges, and with plenty of armor, it can survive combined fire for quite some time. Slow, yes\u2014but powerful.",
         "Icon": "uixTxrIcon_orion"
     },
-    "simGameMechPartCost": 920000,
+    "simGameMechPartCost": 960000,
     "Version": 1,
     "Locations": [
         {
@@ -106,8 +106,19 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Reinforced",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-ExoStar",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -118,7 +129,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_1-Telos",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -129,7 +140,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM6_1-Holly",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -184,7 +195,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_AC10_1-Defiance",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -250,7 +261,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-ExoStar",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
