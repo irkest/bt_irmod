@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 8100000,
+        "Cost": 8200000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Victor",
+        "UIName": "Victor 9S",
         "Id": "chassisdef_victor_VTR-9S",
-        "Name": "Victor",
+        "Name": "Victor 9S",
         "Details": "The Victor 9S trades some of its already subpar armor to mount more weaponry. It's terrifying for enemy forces to see this 'Mech rocketing over a hill to unleash its considerable firepower, but it also needs to really worry about any return fire.",
         "Icon": "uixTxrIcon_victor"
     },
@@ -17,13 +17,13 @@
     "PrefabIdentifier": "chrPrfMech_victorBase-001",
     "PrefabBase": "victor",
     "Tonnage": 80,
-    "InitialTonnage": 35,
+    "InitialTonnage": 34,
     "weightClass": "ASSAULT",
     "BattleValue": 8924000,
-    "Heatsinks": 0,
+    "Heatsinks": 18,
     "TopSpeed": 120,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
+    "MaxJumpjets": 5,
     "Stability": 200,
     "StabilityDefenses": [
         0,

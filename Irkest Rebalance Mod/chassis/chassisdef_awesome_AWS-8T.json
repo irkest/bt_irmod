@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 7800000,
+        "Cost": 9100000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Awesome",
+        "UIName": "Awesome 8T",
         "Id": "chassisdef_awesome_AWS-8T",
-        "Name": "Awesome",
+        "Name": "Awesome 8T",
         "Details": "The Awesome 8T is a superb fire support 'Mech, though its heavy armor is a bit wasted in that role. It can still put up a good fight at medium ranges, and it can crush smaller units outright with Melee attacks.",
         "Icon": "uixTxrIcon_awesome"
     },
@@ -20,7 +20,7 @@
     "InitialTonnage": 24,
     "weightClass": "ASSAULT",
     "BattleValue": 7718000,
-    "Heatsinks": 0,
+    "Heatsinks": 9,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -61,9 +61,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 45,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "InternalStructure": 21
         },
         {
             "Location": "LeftArm",
@@ -87,9 +87,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 130,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 70
         },
         {
             "Location": "LeftTorso",
@@ -101,18 +101,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 170,
-            "MaxRearArmor": 85,
-            "InternalStructure": 85
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 250,
-            "MaxRearArmor": 125,
-            "InternalStructure": 125
+            "MaxArmor": 260,
+            "MaxRearArmor": 130,
+            "InternalStructure": 130
         },
         {
             "Location": "RightTorso",
@@ -124,9 +124,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 170,
-            "MaxRearArmor": 85,
-            "InternalStructure": 85
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "RightArm",
@@ -142,27 +142,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 130,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 70
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 170,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 90
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 170,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 90
         }
     ],
     "LOSSourcePositions": [

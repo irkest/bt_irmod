@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Zeus",
+        "UIName": "Zeus 6T",
         "Id": "chassisdef_zeus_ZEU-6T",
-        "Name": "Zeus",
+        "Name": "Zeus 6T",
         "Details": "The ZEU-6T Zeus variant is relatively fast and sturdy, with an energy-focused weapon loadout and added heatsinks.",
         "Icon": "uixTxrIcon_zeus"
     },

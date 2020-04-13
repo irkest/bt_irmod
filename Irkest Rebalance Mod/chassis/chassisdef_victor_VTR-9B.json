@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 8100000,
+        "Cost": 8200000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Victor",
+        "UIName": "Victor 9B",
         "Id": "chassisdef_victor_VTR-9B",
-        "Name": "Victor",
+        "Name": "Victor 9B",
         "Details": "Few assault 'Mechs mount Jump Jets, but the Victor 9B is one of 'em. With a large ballistic gun and supporting close-range weaponry, the 9B is a deadly opponent with superior mobility for its size. Unfortunately, this comes at the cost of armor.",
         "Icon": "uixTxrIcon_victor"
     },
@@ -17,13 +17,13 @@
     "PrefabIdentifier": "chrPrfMech_victorBase-001",
     "PrefabBase": "victor",
     "Tonnage": 80,
-    "InitialTonnage": 35,
+    "InitialTonnage": 34,
     "weightClass": "ASSAULT",
     "BattleValue": 8924000,
-    "Heatsinks": 0,
+    "Heatsinks": 18,
     "TopSpeed": 120,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
+    "MaxJumpjets": 5,
     "Stability": 200,
     "StabilityDefenses": [
         0,

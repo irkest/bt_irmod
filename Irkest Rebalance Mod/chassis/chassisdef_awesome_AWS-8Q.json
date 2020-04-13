@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 7800000,
+        "Cost": 9000000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Awesome",
+        "UIName": "Awesome 8Q",
         "Id": "chassisdef_awesome_AWS-8Q",
-        "Name": "Awesome",
+        "Name": "Awesome 8Q",
         "Details": "A 'Mech that truly lives up to its name! The Awesome 8Q mounts a frightening trio of PPCs that can destroy, knock down, or debilitate any target in no time. It's ungainly, but it can shrug off huge amounts of incoming fire.",
         "Icon": "uixTxrIcon_awesome"
     },
@@ -61,18 +61,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 45,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "InternalStructure": 21
         },
         {
             "Location": "LeftArm",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 130,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 70
         },
         {
             "Location": "LeftTorso",
@@ -88,18 +88,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 170,
-            "MaxRearArmor": 85,
-            "InternalStructure": 85
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 250,
-            "MaxRearArmor": 125,
-            "InternalStructure": 125
+            "MaxArmor": 260,
+            "MaxRearArmor": 130,
+            "InternalStructure": 130
         },
         {
             "Location": "RightTorso",
@@ -115,9 +115,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 170,
-            "MaxRearArmor": 85,
-            "InternalStructure": 85
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "RightArm",
@@ -133,27 +133,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 130,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 70
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 170,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 90
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 170,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 85
+            "InternalStructure": 90
         }
     ],
     "LOSSourcePositions": [
@@ -206,5 +206,31 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Sniper & Defender",
-    "YangsThoughts": "A 'Mech that truly lives up to its name! The Awesome 8Q mounts a frightening trio of PPCs that can destroy, knock down, or debilitate any target in no time. It's ungainly, but it can shrug off huge amounts of incoming fire."
+    "YangsThoughts": "A 'Mech that truly lives up to its name! The Awesome 8Q mounts a frightening trio of PPCs that can destroy, knock down, or debilitate any target in no time. It's ungainly, but it can shrug off huge amounts of incoming fire.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_Integrated_Cooling_System_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

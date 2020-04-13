@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 8400000,
+        "Cost": 9200000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Stalker",
+        "UIName": "Stalker 3F",
         "Id": "chassisdef_stalker_STK-3F",
-        "Name": "Stalker",
+        "Name": "Stalker 3F",
         "Details": "The Stalker 3F mounts a ridiculous amount of weaponry\u2014even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.",
         "Icon": "uixTxrIcon_stalker"
     },
@@ -20,10 +20,10 @@
     "InitialTonnage": 25,
     "weightClass": "ASSAULT",
     "BattleValue": 8821000,
-    "Heatsinks": 0,
-    "TopSpeed": 105,
+    "Heatsinks": 12,
+    "TopSpeed": 120,
     "TurnRadius": 90,
-    "MaxJumpjets": 3,
+    "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
         0,
