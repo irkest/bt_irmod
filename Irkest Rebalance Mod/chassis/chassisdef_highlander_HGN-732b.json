@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 14800000,
+        "Cost": 12000000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": "",
@@ -17,13 +17,13 @@
     "PrefabIdentifier": "chrPrfMech_highlander_SLDFBase-001",
     "PrefabBase": "highlander",
     "Tonnage": 90,
-    "InitialTonnage": 23,
+    "InitialTonnage": 23.5,
     "weightClass": "ASSAULT",
     "BattleValue": 9642000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
-    "MaxJumpjets": 3,
+    "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
         0,

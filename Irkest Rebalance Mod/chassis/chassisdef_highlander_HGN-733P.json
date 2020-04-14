@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 9000000,
+        "Cost": 9500000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -20,10 +20,10 @@
     "InitialTonnage": 27,
     "weightClass": "ASSAULT",
     "BattleValue": 9642000,
-    "Heatsinks": 0,
+    "Heatsinks": 21,
     "TopSpeed": 105,
     "TurnRadius": 90,
-    "MaxJumpjets": 3,
+    "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
         0,
