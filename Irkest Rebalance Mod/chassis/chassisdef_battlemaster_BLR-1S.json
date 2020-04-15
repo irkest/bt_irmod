@@ -1,17 +1,17 @@
 {
     "Description": {
-        "Cost": 9600000,
+        "Cost": 9300000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "BattleMaster 1G",
-        "Id": "chassisdef_battlemaster_BLR-1G",
-        "Name": "BattleMaster 1G",
-        "Details": "Versatile and powerful, the BattleMaster 1G is one of the best known BattleMechs in existence. Normally mounting a varied array of Energy weapons, the BattleMaster can engage enemies at any range and packs a powerful punch.",
+        "UIName": "BattleMaster 1S",
+        "Id": "chassisdef_battlemaster_BLR-1S",
+        "Name": "BattleMaster 1S",
+        "Details": "The BLR-1S shifts the BattleMaster's focus to missile-based fire support, extending its range and attack flexibility while at the same time increasing heat efficiency. It's well-armored, but lacks in raw, close-in firepower.",
         "Icon": "uixTxrIcon_battlemaster"
     },
-    "MovementCapDefID": "movedef_battlemaster_BLR-1G",
+    "MovementCapDefID": "movedef_battlemaster_BLR-1S",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_battlemaster",
     "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
@@ -19,7 +19,7 @@
     "Tonnage": 85,
     "InitialTonnage": 35,
     "weightClass": "ASSAULT",
-    "BattleValue": 8742000,
+    "BattleValue": 9300000,
     "Heatsinks": 24,
     "TopSpeed": 60,
     "TurnRadius": 90,
@@ -60,19 +60,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -86,19 +74,23 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -127,10 +119,6 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -143,7 +131,7 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -216,13 +204,13 @@
             "z": 1
         }
     ],
-    "VariantName": "BLR-1G",
+    "VariantName": "BLR-1S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Brawler & Close Assault",
-    "YangsThoughts": "Versatile and powerful, the BattleMaster 1G is one of the best known BattleMechs in existence. Normally mounting a varied array of Energy weapons, the BattleMaster can engage enemies at any range and packs a powerful punch.",
+    "StockRole": "Heavy Fire Support",
+    "YangsThoughts": "The BLR-1S shifts the BattleMaster's focus to missile-based fire support, extending its range and attack flexibility while at the same time increasing heat efficiency. It's well-armored, but lacks in raw, close-in firepower.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "RightTorso",

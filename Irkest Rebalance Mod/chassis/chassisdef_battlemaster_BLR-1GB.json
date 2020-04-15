@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 9600000,
+        "Cost": 12900000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "BattleMaster 1G",
-        "Id": "chassisdef_battlemaster_BLR-1G",
-        "Name": "BattleMaster 1G",
-        "Details": "Versatile and powerful, the BattleMaster 1G is one of the best known BattleMechs in existence. Normally mounting a varied array of Energy weapons, the BattleMaster can engage enemies at any range and packs a powerful punch.",
+        "UIName": "BattleMaster 1GB",
+        "Id": "chassisdef_battlemaster_BLR-1GB",
+        "Name": "BattleMaster 1GB",
+        "Details": "The BLR-1GB is an enhanced BattleMaster variant that was developed for the SLDF's Royal Divisions. This model boasts superb weaponry, armor, and heat management systems. Extremely rare and expensive, but worth the price.",
         "Icon": "uixTxrIcon_battlemaster"
     },
-    "MovementCapDefID": "movedef_battlemaster_BLR-1G",
+    "MovementCapDefID": "movedef_battlemaster_BLR-1GB",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_battlemaster",
     "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
     "PrefabBase": "battlemaster",
     "Tonnage": 85,
-    "InitialTonnage": 35,
+    "InitialTonnage": 31,
     "weightClass": "ASSAULT",
-    "BattleValue": 8742000,
-    "Heatsinks": 24,
+    "BattleValue": 15900000,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -60,19 +60,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -86,19 +74,23 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -142,6 +134,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -216,13 +212,13 @@
             "z": 1
         }
     ],
-    "VariantName": "BLR-1G",
+    "VariantName": "BLR-1GB",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Brawler & Close Assault",
-    "YangsThoughts": "Versatile and powerful, the BattleMaster 1G is one of the best known BattleMechs in existence. Normally mounting a varied array of Energy weapons, the BattleMaster can engage enemies at any range and packs a powerful punch.",
+    "YangsThoughts": "The BLR-1GB is an enhanced BattleMaster variant that was developed for the SLDF's Royal Divisions. This model boasts superb weaponry, armor, and heat management systems. Extremely rare and expensive, but worth the price.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "RightTorso",

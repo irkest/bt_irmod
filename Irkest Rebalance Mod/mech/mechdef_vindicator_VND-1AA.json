@@ -53,7 +53,7 @@
             "Location": "LeftTorso",
             "CurrentArmor": 60,
             "CurrentRearArmor": 20,
-            "CurrentInternalStructure": 55,
+            "CurrentInternalStructure": 60,
             "AssignedArmor": 60,
             "AssignedRearArmor": 20
         },
@@ -71,7 +71,7 @@
             "Location": "RightTorso",
             "CurrentArmor": 60,
             "CurrentRearArmor": 20,
-            "CurrentInternalStructure": 55,
+            "CurrentInternalStructure": 60,
             "AssignedArmor": 60,
             "AssignedRearArmor": 20
         },

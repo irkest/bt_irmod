@@ -23,7 +23,7 @@
     "Heatsinks": 9,
     "TopSpeed": 120,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
+    "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
         0,
@@ -88,7 +88,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 110,
+            "MaxArmor": 115,
             "MaxRearArmor": 55,
             "InternalStructure": 55
         },
@@ -115,7 +115,7 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 110,
+            "MaxArmor": 115,
             "MaxRearArmor": 55,
             "InternalStructure": 55
         },
@@ -142,7 +142,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 110,
+            "MaxArmor": 115,
             "MaxRearArmor": -1,
             "InternalStructure": 55
         },
@@ -151,7 +151,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 110,
+            "MaxArmor": 115,
             "MaxRearArmor": -1,
             "InternalStructure": 55
         }
