@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 10400000,
+        "Cost": 9000000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Banshee",
+        "UIName": "Banshee 3E",
         "Id": "chassisdef_banshee_BNC-3E",
-        "Name": "Banshee",
+        "Name": "Banshee 3E",
         "Details": "The Banshee 3E was originally designed for close combat, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, its firepower is severely lacking and it can still be flanked by lighter units.",
         "Icon": "uixTxrIcon_banshee"
     },
@@ -20,7 +20,7 @@
     "InitialTonnage": 45,
     "weightClass": "ASSAULT",
     "BattleValue": 9360000,
-    "Heatsinks": 0,
+    "Heatsinks": 18,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -61,18 +61,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 45,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "InternalStructure": 21
         },
         {
             "Location": "LeftArm",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 100
         },
         {
             "Location": "LeftTorso",
@@ -84,18 +84,18 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 100
+            "MaxArmor": 220,
+            "MaxRearArmor": 110,
+            "InternalStructure": 120
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
-            "MaxRearArmor": 150,
-            "InternalStructure": 150
+            "MaxArmor": 330,
+            "MaxRearArmor": 170,
+            "InternalStructure": 180
         },
         {
             "Location": "RightTorso",
@@ -119,36 +119,36 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 100
+            "MaxArmor": 220,
+            "MaxRearArmor": 110,
+            "InternalStructure": 120
         },
         {
             "Location": "RightArm",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 100
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 100
+            "InternalStructure": 120
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 100
+            "InternalStructure": 120
         }
     ],
     "LOSSourcePositions": [

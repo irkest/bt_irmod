@@ -1,13 +1,13 @@
 {
     "Description": {
-        "Cost": 10400000,
+        "Cost": 9800000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Banshee",
+        "UIName": "Banshee 3S",
         "Id": "chassisdef_banshee_BNC-3S",
-        "Name": "Banshee",
+        "Name": "Banshee 3S",
         "Details": "The Banshee 3S sacrifices its trademark speed for a large expansion in firepower. The 3S fills the role of a well armored sniper, sporting two PPCs and an AC10 while still being capable of inflicting heavy melee damage.",
         "Icon": "uixTxrIcon_banshee"
     },
@@ -22,7 +22,7 @@
     "Tonnage": 95,
     "InitialTonnage": 30,
     "weightClass": "ASSAULT",
-    "Heatsinks": 0,
+    "Heatsinks": 27,
     "TopSpeed": 90,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -65,9 +65,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 45,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "InternalStructure": 21
         },
         {
             "Location": "LeftArm",
@@ -79,9 +79,9 @@
 			],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 100
         },
         {
             "Location": "LeftTorso",
@@ -93,9 +93,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 100
+            "MaxArmor": 220,
+            "MaxRearArmor": 110,
+            "InternalStructure": 120
         },
         {
             "Location": "CenterTorso",
@@ -107,9 +107,9 @@
 			],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
-            "MaxRearArmor": 150,
-            "InternalStructure": 150
+            "MaxArmor": 330,
+            "MaxRearArmor": 170,
+            "InternalStructure": 180
         },
         {
             "Location": "RightTorso",
@@ -141,36 +141,36 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 100
+            "MaxArmor": 220,
+            "MaxRearArmor": 110,
+            "InternalStructure": 120
         },
         {
             "Location": "RightArm",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 160,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 100
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 100
+            "InternalStructure": 120
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 200,
+            "MaxArmor": 220,
             "MaxRearArmor": -1,
-            "InternalStructure": 100
+            "InternalStructure": 120
         }
     ],
     "LOSSourcePositions": [
