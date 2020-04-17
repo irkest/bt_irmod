@@ -195,6 +195,18 @@
     "YangsThoughts": "Panther 12M stock configuration: 5 medium lasers (+), 5 jump jets, integrated cooling system, 6 heatsinks, lightweight structure and Ceres metals reinforced cockpit.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Integrated_Cooling_System_Standard",
             "SimGameUID" : "",

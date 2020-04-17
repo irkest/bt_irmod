@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Commando",
+        "UIName": "Commando 2D",
         "Id": "chassisdef_commando_COM-2D",
-        "Name": "Commando",
+        "Name": "Commando 2D",
         "Details": "With all those SRMs, the COM-2D is like a small, highly mobile shotgun that can take down 'Mechs twice its size or bigger. You've gotta be careful with it, though, because it's not meant to take much of a beating.",
         "Icon": "uixTxrIcon_commando"
     },
@@ -193,5 +193,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "With all those SRMs, the COM-2D is like a small, highly mobile shotgun that can take down 'Mechs twice its size or bigger. You've gotta be careful with it, though, because it's not meant to take much of a beating."
+    "YangsThoughts": "With all those SRMs, the COM-2D is like a small, highly mobile shotgun that can take down 'Mechs twice its size or bigger. You've gotta be careful with it, though, because it's not meant to take much of a beating.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

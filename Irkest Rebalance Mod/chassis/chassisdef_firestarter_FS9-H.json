@@ -5,10 +5,10 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Firestarter",
+        "UIName": "Firestarter 9-H",
         "Id": "chassisdef_firestarter_FS9-H",
-        "Name": "Firestarter",
-        "Details": "The Firestarter is a dangerous 'Mech for its tonnage\u2014carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer.",
+        "Name": "Firestarter 9-H",
+        "Details": "The Firestarter 9-H is a dangerous 'Mech for its tonnage\u2014carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer.",
         "Icon": "uixTxrIcon_firestarter"
     },
     "MovementCapDefID": "movedef_firestarter_FS9-H",
@@ -231,5 +231,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
-    "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage\u2014carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer."
+    "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage\u2014carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Kintaro",
+        "UIName": "Kintaro 18",
         "Id": "chassisdef_kintaro_KTO-18",
-        "Name": "Kintaro",
+        "Name": "Kintaro 18",
         "Details": "The Kintaro 18 is\u2026 a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
         "Icon": "uixTxrIcon_kintaro"
     },
@@ -202,5 +202,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
-    "YangsThoughts": "The Kintaro 18 is\u2026 a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas."
+    "YangsThoughts": "The Kintaro 18 is\u2026 a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

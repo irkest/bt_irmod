@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Blackjack",
+        "UIName": "Blackjack 1",
         "Id": "chassisdef_blackjack_BJ-1",
-        "Name": "Blackjack",
+        "Name": "Blackjack 1",
         "Details": "Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons.",
         "Icon": "uixTxrIcon_blackjack"
     },
@@ -206,5 +206,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
-    "YangsThoughts": "Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons."
+    "YangsThoughts": "Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

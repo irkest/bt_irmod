@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Locust",
+        "UIName": "Locust 1S",
         "Id": "chassisdef_locust_LCT-1S",
-        "Name": "Locust",
+        "Name": "Locust 1S",
         "Details": "Locust 1S models tend to sacrifice the little armor they normally mount to fire respectable SRM salvos. Definitely useful for hit-and-runs, especially if those shots provide the extra punch to knock down a target.",
         "Icon": "uixTxrIcon_locust"
     },
@@ -197,5 +197,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Locust 1S models tend to sacrifice the little armor they normally mount to fire respectable SRM salvos. Definitely useful for hit-and-runs, especially if those shots provide the extra punch to knock down a target."
+    "YangsThoughts": "Locust 1S models tend to sacrifice the little armor they normally mount to fire respectable SRM salvos. Definitely useful for hit-and-runs, especially if those shots provide the extra punch to knock down a target.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

@@ -7,9 +7,9 @@
             "unit_range_short",
             "unit_role_brawler",
             "unit_urbie",
-			"unit_jumpOK",
-			"unit_speed_low",
-			"Liao"
+            "unit_jumpOK",
+            "unit_speed_low",
+            "Liao"
         ],
         "tagSetSourceFile": ""
     },
@@ -23,7 +23,7 @@
         "Model": null,
         "UIName": "UrbanMech UM-R60L",
         "Id": "mechdef_urbanmech_UM-R60L",
-        "Name": "UrbanMech",
+        "Name": "UrbanMech R60L",
         "Details": "The UM-R60L is a modification of the standard R60 UrbanMech that replaces the AC/10 and 2 tons of armor with an AC/20 to double its firepower. With even less combat endurance than the R60, the R60L is favored in ambush or hit-and-run tactics.",
         "Icon": "uixTxrIcon_urbanmech"
     },
@@ -104,7 +104,7 @@
         }
     ],
     "inventory": [
-		{
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "SimGameUID": null,

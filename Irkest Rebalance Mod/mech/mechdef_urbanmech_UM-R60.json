@@ -7,15 +7,15 @@
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_urbie",
-			"unit_range_medium",
-			"unit_range_short",
-			"unit_jumpOK",
-			"unit_speed_low",
-			"unit_armor_high",
-			"Liao",
-			"TaurianConcordat",
-			"MagistracyOfCanopus",
-			"unit_common"
+            "unit_range_medium",
+            "unit_range_short",
+            "unit_jumpOK",
+            "unit_speed_low",
+            "unit_armor_high",
+            "Liao",
+            "TaurianConcordat",
+            "MagistracyOfCanopus",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
@@ -29,7 +29,7 @@
         "Model": null,
         "UIName": "UrbanMech UM-R60",
         "Id": "mechdef_urbanmech_UM-R60",
-        "Name": "UrbanMech",
+        "Name": "UrbanMech R60",
         "Details": "Don't let the stubby 'Urbie' fool you\u2014it may look like a walking trash can, but it can mount heavy armor and a grown-up-sized Autocannon. R60s aren't known for their speed, but they are very useful if you can draw the enemy into their firing range.",
         "Icon": "uixTxrIcon_urbanmech"
     },

@@ -234,6 +234,18 @@
     "YangsThoughts": "Firestarter 10-BS stock configuration: 4 medium lasers (+), 2 vectored thrust kits, 4 jump jets, 2 lightweight structures, 6 heatsinks and Ceres metals reinforced cockpit.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_JumpJet_Vectored_Thrust_Kit_Mk2",
             "SimGameUID" : "",

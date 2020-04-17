@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Wolverine",
+        "UIName": "Wolverine 6K",
         "Id": "chassisdef_wolverine_WVR-6K",
-        "Name": "Wolverine",
+        "Name": "Wolverine 6K",
         "Details": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
         "Icon": "uixTxrIcon_wolverine"
     },
@@ -205,5 +205,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor."
+    "YangsThoughts": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

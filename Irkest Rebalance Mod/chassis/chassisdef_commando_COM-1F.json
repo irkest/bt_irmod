@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Commando",
+        "UIName": "Commando 1F",
         "Id": "chassisdef_commando_COM-1F",
-        "Name": "Commando",
+        "Name": "Commando 1F",
         "Details": "Commando 1F stock configuration: 3 medium lasers, 3 machine guns, 3 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_commando"
     },
@@ -197,5 +197,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "Commando 1F stock configuration: 3 medium lasers, 3 machine guns, 3 heatsinks and Ceres metals braced cockpit."
+    "YangsThoughts": "Commando 1F stock configuration: 3 medium lasers, 3 machine guns, 3 heatsinks and Ceres metals braced cockpit.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

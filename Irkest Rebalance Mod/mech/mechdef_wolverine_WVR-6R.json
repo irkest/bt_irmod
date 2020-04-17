@@ -8,12 +8,12 @@
             "unit_lance_vanguard",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_medium",
-			"Davion",
-			"Kurita",
-			"Liao",
-			"Marik",
-			"unit_common"
+            "unit_range_medium",
+            "Davion",
+            "Kurita",
+            "Liao",
+            "Marik",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
@@ -27,7 +27,7 @@
         "Model": null,
         "UIName": "Wolverine WVR-6R",
         "Id": "mechdef_wolverine_WVR-6R",
-        "Name": "Wolverine",
+        "Name": "Wolverine 6R",
         "Details": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
         "Icon": "uixTxrIcon_wolverine"
     },

@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Shadow Hawk",
+        "UIName": "Shadow Hawk 2D",
         "Id": "chassisdef_shadowhawk_SHD-2D",
-        "Name": "Shadow Hawk",
+        "Name": "Shadow Hawk 2D",
         "Details": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so\u2026 I guess you can be the judge.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
@@ -212,5 +212,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",
-    "YangsThoughts": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so\u2026 I guess you can be the judge."
+    "YangsThoughts": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so\u2026 I guess you can be the judge.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

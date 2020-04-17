@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Wolverine",
+        "UIName": "Wolverine 6R",
         "Id": "chassisdef_wolverine_WVR-6R",
-        "Name": "Wolverine",
+        "Name": "Wolverine 6R",
         "Details": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
         "Icon": "uixTxrIcon_wolverine"
     },
@@ -201,5 +201,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Cavalry",
-    "YangsThoughts": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management."
+    "YangsThoughts": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

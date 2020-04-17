@@ -1,0 +1,31 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Generic",
+        "Model" : "",
+        "UIName" : "Standard armor",
+        "Id" : "Gear_Armor_Standard",
+        "Name" : "Standard armor",
+        "Details" : "This mech is equipped with standard armor.",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 0,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "BUILT-IN",
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

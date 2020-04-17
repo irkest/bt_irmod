@@ -225,6 +225,18 @@
             "hasPrefabName" : false
         },
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Reinforced_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
             "SimGameUID" : "",

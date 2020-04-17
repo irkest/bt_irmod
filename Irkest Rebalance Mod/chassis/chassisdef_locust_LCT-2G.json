@@ -208,6 +208,18 @@
     "YangsThoughts": "Locust 2G stock configuration: 4 rapid-fire machine guns, 8 jump jets, heatsink, 2 integrated lightweight structures and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
             "SimGameUID" : "",

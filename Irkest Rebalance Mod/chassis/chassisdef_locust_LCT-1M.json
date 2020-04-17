@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Locust",
+        "UIName": "Locust 1M",
         "Id": "chassisdef_locust_LCT-1M",
-        "Name": "Locust",
+        "Name": "Locust 1M",
         "Details": "The Locust's 1M model is interesting in that it can churn out a decent volley of LRMs for such a small 'Mech. It's a great harasser, especially if you can use its speed to lob missiles into the weaker rear armor of targets. But it normally has almost no armor itself.",
         "Icon": "uixTxrIcon_locust"
     },
@@ -197,5 +197,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Extremely Fast Scout",
-    "YangsThoughts": "The Locust's 1M model is interesting in that it can churn out a decent volley of LRMs for such a small 'Mech. It's a great harasser, especially if you can use its speed to lob missiles into the weaker rear armor of targets. But it normally has almost no armor itself."
+    "YangsThoughts": "The Locust's 1M model is interesting in that it can churn out a decent volley of LRMs for such a small 'Mech. It's a great harasser, especially if you can use its speed to lob missiles into the weaker rear armor of targets. But it normally has almost no armor itself.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

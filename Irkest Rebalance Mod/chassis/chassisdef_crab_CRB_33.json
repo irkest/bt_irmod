@@ -218,6 +218,18 @@
     "YangsThoughts": "Crab 33 stock configuration: 6 medium lasers (+), advanced targeting computer E120, 9 heatsinks and StarCorps enhanced comms system.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Advanced_Targeting_Computer_E120",
             "SimGameUID" : "",

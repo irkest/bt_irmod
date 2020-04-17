@@ -196,6 +196,18 @@
     "YangsThoughts": "The Spider 6S stock configuration: 4 rapid-fire machine guns (++), 6 jump jets, R-1 active probe, 3 lightweight structures and Ceres metals braced cockpit.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftArm	",
             "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
             "SimGameUID" : "",

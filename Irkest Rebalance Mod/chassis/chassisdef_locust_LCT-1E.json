@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Locust",
+        "UIName": "Locust 1E",
         "Id": "chassisdef_locust_LCT-1E",
-        "Name": "Locust",
+        "Name": "Locust 1E",
         "Details": "The 1E Locust packs only Lasers for its armament, for better overall damage without the risk of ammo explosions. It runs quite a bit hotter than other variants, though, so it works best with hit-and-run attacks.",
         "Icon": "uixTxrIcon_locust"
     },
@@ -196,5 +196,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Fire Support",
-    "YangsThoughts": "The 1E Locust packs only Lasers for its armament, for better overall damage without the risk of ammo explosions. It runs quite a bit hotter than other variants, though, so it works best with hit-and-run attacks."
+    "YangsThoughts": "The 1E Locust packs only Lasers for its armament, for better overall damage without the risk of ammo explosions. It runs quite a bit hotter than other variants, though, so it works best with hit-and-run attacks.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

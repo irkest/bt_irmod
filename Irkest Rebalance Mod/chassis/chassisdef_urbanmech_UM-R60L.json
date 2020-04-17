@@ -5,9 +5,9 @@
         "Purchasable" : true,
         "Manufacturer" : "",
         "Model" : "",
-        "UIName" : "UrbanMech",
+        "UIName" : "UrbanMech R60L",
         "Id" : "chassisdef_urbanmech_UM-R60L",
-        "Name" : "UrbanMech",
+        "Name" : "UrbanMech R60L",
         "Details" : "The UM-R60L is a modification of the standard R60 UrbanMech that replaces the AC/10 and 2 tons of armor with an AC/20 to double its firepower. With even less combat endurance than the R60, the R60L is favored in ambush or hit-and-run tactics.",
         "Icon" : "uixTxrIcon_urbanmech"
     },
@@ -218,5 +218,18 @@
             "z" : 0.5
         }
     ],
-    "FixedEquipment" : null
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Reinforced_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

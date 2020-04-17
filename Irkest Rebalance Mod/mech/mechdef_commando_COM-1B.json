@@ -27,7 +27,7 @@
         "Model": null,
         "UIName": "Commando COM-1B",
         "Id": "mechdef_commando_COM-1B",
-        "Name": "Commando",
+        "Name": "Commando 1B",
         "Details": "The Large Laser mounted by most 1B models is nothing to sniff at, but it lacks the close-up impact of the SRMs it replaces. Best to keep these units at range for flanking and spotting.",
         "Icon": "uixTxrIcon_commando"
     },

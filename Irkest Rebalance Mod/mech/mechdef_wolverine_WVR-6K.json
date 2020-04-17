@@ -6,13 +6,13 @@
             "unit_lance_assassin",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_medium",
-			"unit_armor_high",
-			"Kurita",
-			"NotLiao",
-			"NotMarik",
-			"NotMagistracyOfCanopus",
-			"NotTaurianConcordat"
+            "unit_range_medium",
+            "unit_armor_high",
+            "Kurita",
+            "NotLiao",
+            "NotMarik",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
@@ -26,7 +26,7 @@
         "Model": null,
         "UIName": "Wolverine WVR-6K",
         "Id": "mechdef_wolverine_WVR-6K",
-        "Name": "Wolverine",
+        "Name": "Wolverine 6K",
         "Details": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
         "Icon": "uixTxrIcon_wolverine"
     },

@@ -200,6 +200,18 @@
     "YangsThoughts": "The Spider 5V is hands down the most maneuverable 'Mech you can field\u2026 but it's made of paper. It's an excellent scout, though, and can even jump into the rear arc of most enemies for surprise back shots.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Standard",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "LeftArm	",
             "ComponentDefID" : "Gear_Lightweight_Structure_Standard",
             "SimGameUID" : "",

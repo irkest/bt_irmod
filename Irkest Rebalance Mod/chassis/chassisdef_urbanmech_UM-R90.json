@@ -5,9 +5,9 @@
         "Purchasable" : true,
         "Manufacturer" : "",
         "Model" : "",
-        "UIName" : "UrbanMech",
+        "UIName" : "UrbanMech R90",
         "Id" : "chassisdef_urbanmech_UM-R90",
-        "Name" : "SuburbanMech",
+        "Name" : "SuburbanMech R90",
         "Details" : "The UM-R90 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.",
         "Icon" : "uixTxrIcon_urbanmech"
     },
@@ -212,5 +212,18 @@
             "z" : 0.5
         }
     ],
-    "FixedEquipment" : null
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Reinforced_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }
