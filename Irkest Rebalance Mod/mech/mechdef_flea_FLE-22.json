@@ -23,7 +23,7 @@
     "ChassisID": "chassisdef_flea_FLE-22",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3300000,
+        "Cost": 3600000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -34,7 +34,7 @@
         "Details": "Flea 22 stock configuration: 6 flame throwers, 6 jump jets, 2 targeting baffles, 2 lightweight structures and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 340000,
+    "simGameMechPartCost": 360000,
     "Version": 1,
     "Locations": [
         {

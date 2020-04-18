@@ -17,7 +17,7 @@
     "ChassisID": "chassisdef_flea_FLE-27m",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5540000,
+        "Cost": 5840000,
         "Rarity": 100,
         "Purchasable": true,
         "Manufacturer": null,
@@ -28,7 +28,7 @@
         "Details": "Your family 'Flea' mech is armed with old-time weapons and has several improvements: 2 old-time small pulse lasers, 6 jump jets, 2 targeting baffles, 3 heatsinks and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 550000,
+    "simGameMechPartCost": 580000,
     "Version": 1,
     "Locations": [
         {

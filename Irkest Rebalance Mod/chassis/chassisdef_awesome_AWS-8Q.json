@@ -221,6 +221,18 @@
             "hasPrefabName" : false
         },
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Composite_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "RightTorso",
             "ComponentDefID" : "Gear_Integrated_Cooling_System_Standard",
             "SimGameUID" : "",

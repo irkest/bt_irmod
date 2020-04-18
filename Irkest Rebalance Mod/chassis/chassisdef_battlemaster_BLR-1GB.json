@@ -221,6 +221,18 @@
     "YangsThoughts": "The BLR-1GB is an enhanced BattleMaster variant that was developed for the SLDF's Royal Divisions. This model boasts superb weaponry, armor, and heat management systems. Extremely rare and expensive, but worth the price.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Cemented_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "RightTorso",
             "ComponentDefID" : "Gear_General_Lance_Command_Module",
             "SimGameUID" : "",

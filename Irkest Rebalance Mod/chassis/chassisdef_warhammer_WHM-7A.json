@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
+        "UIName": "Warhammer 7A",
         "Id": "chassisdef_warhammer_WHM-7A",
-        "Name": "Warhammer",
+        "Name": "Warhammer 7A",
         "Details": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
         "Icon": "uixTxrIcon_warhammer"
     },
@@ -222,6 +222,18 @@
     "StockRole": "Brawler",
     "YangsThoughts": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
     "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Cemented_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
         {
             "MountedLocation" : "CenterTorso",
             "ComponentDefID" : "Gear_General_Optimized_Capacitors",

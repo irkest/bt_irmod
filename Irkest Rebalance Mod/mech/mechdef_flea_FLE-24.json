@@ -23,7 +23,7 @@
     "ChassisID": "chassisdef_flea_FLE-24",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3210000,
+        "Cost": 3510000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -34,7 +34,7 @@
         "Details": "Flea 24 stock configuration: 4 rapid-fire machine guns, 6 jump jets, 2 targeting baffles and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 320000,
+    "simGameMechPartCost": 350000,
     "Version": 1,
     "Locations": [
         {

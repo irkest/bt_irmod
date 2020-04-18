@@ -205,5 +205,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Cavalry",
-    "YangsThoughts": "Few assault 'Mechs mount Jump Jets, but the Victor 9B is one of 'em. With a large ballistic gun and supporting close-range weaponry, the 9B is a deadly opponent with superior mobility for its size. Unfortunately, this comes at the cost of armor."
+    "YangsThoughts": "Few assault 'Mechs mount Jump Jets, but the Victor 9B is one of 'em. With a large ballistic gun and supporting close-range weaponry, the 9B is a deadly opponent with superior mobility for its size. Unfortunately, this comes at the cost of armor.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Composite_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

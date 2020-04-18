@@ -12,7 +12,7 @@
         "Icon" : "uixSvgIcon_special_Equipment"
     },
     "BonusValueA" : "+ Called Shot",
-    "BonusValueB" : "- 10% Dmg. (Lance)",
+    "BonusValueB" : "+ 1 Hit Defense (Lance)",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -25,7 +25,7 @@
         {
             "durationData" : {
                 "duration" : -1,
-                "stackLimit" : 1
+                "stackLimit" : -1
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
@@ -35,17 +35,17 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-LCM-DamageReduction",
+                "Id" : "StatusEffect-TargBaff-HitDefense1",
                 "Name" : "LANCE COMMAND MODULE",
-                "Details" : "Units in this lance take [AMT] less damage.",
-                "Icon" : "uixSvgIcon_special_Equipment"
+                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamageReductionMultiplierAll",
-                "operation" : "Float_Multiply",
-                "modValue" : "0.9",
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "1",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "JagerMech",
+        "UIName": "JagerMech S",
         "Id": "chassisdef_jagermech_JM6-S",
-        "Name": "JagerMech",
+        "Name": "JagerMech S",
         "Details": "The JagerMech S model is highly specialized at long-range Autocannon fire support. It doesn't have much in the way of protection or closer-range weapons, though, so keep it distant and out of harm's way.",
         "Icon": "uixTxrIcon_jagermech"
     },
@@ -222,5 +222,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
-    "YangsThoughts": "The JagerMech S model is highly specialized at long-range Autocannon fire support. It doesn't have much in the way of protection or closer-range weapons, though, so keep it distant and out of harm's way."
+    "YangsThoughts": "The JagerMech S model is highly specialized at long-range Autocannon fire support. It doesn't have much in the way of protection or closer-range weapons, though, so keep it distant and out of harm's way.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

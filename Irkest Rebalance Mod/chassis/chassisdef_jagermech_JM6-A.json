@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "JagerMech",
+        "UIName": "JagerMech A",
         "Id": "chassisdef_jagermech_JM6-A",
-        "Name": "JagerMech",
+        "Name": "JagerMech A",
         "Details": "The JagerMech A model attempts to provide an indirect-fire support platform that can dish out damage without ever being seen. It has lower overall focused damage capability, but it usually mounts decent armor.",
         "Icon": "uixTxrIcon_jagermech"
     },
@@ -214,5 +214,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
-    "YangsThoughts": "The JagerMech A model attempts to provide an indirect-fire support platform that can dish out damage without ever being seen. It has lower overall focused damage capability, but it usually mounts decent armor."
+    "YangsThoughts": "The JagerMech A model attempts to provide an indirect-fire support platform that can dish out damage without ever being seen. It has lower overall focused damage capability, but it usually mounts decent armor.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

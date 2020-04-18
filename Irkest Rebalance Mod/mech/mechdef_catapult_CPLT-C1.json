@@ -26,7 +26,7 @@
         "Model": null,
         "UIName": "Catapult CPLT-C1",
         "Id": "mechdef_catapult_CPLT-C1",
-        "Name": "Catapult",
+        "Name": "Catapult C1",
         "Details": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.",
         "Icon": "uixTxrIcon_catapult"
     },

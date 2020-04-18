@@ -29,7 +29,7 @@
         "Model": null,
         "UIName": "Thunderbolt TDR-5S",
         "Id": "mechdef_thunderbolt_TDR-5S",
-        "Name": "Thunderbolt",
+        "Name": "Thunderbolt 5S",
         "Details": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.",
         "Icon": "uixTxrIcon_thunderbolt"
     },

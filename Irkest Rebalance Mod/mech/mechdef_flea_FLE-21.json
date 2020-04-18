@@ -23,7 +23,7 @@
     "ChassisID": "chassisdef_flea_FLE-21",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3180000,
+        "Cost": 3480000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -34,7 +34,7 @@
         "Details": "Flea 21 stock configuration: 6 machine guns, 6 jump jets, 2 targeting baffles, heatsink and Ceres metals braced cockpit.",
         "Icon": "uixTxrIcon_flea"
     },
-    "simGameMechPartCost": 320000,
+    "simGameMechPartCost": 350000,
     "Version": 1,
     "Locations": [
         {

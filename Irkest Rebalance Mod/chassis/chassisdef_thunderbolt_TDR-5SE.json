@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Thunderbolt",
+        "UIName": "Thunderbolt 5SE",
         "Id": "chassisdef_thunderbolt_TDR-5SE",
-        "Name": "Thunderbolt",
+        "Name": "Thunderbolt 5SE",
         "Details": "Thunderbolt SE models lose a little of their firepower in exchange for mounting Jump Jets. The greater mobility is intended to allow for more precision attacking maneuvers, though it all depends on the battlefield terrain.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
@@ -212,5 +212,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Skirmisher",
-    "YangsThoughts": "Thunderbolt SE models lose a little of their firepower in exchange for mounting Jump Jets. The greater mobility is intended to allow for more precision attacking maneuvers, though it all depends on the battlefield terrain."
+    "YangsThoughts": "Thunderbolt SE models lose a little of their firepower in exchange for mounting Jump Jets. The greater mobility is intended to allow for more precision attacking maneuvers, though it all depends on the battlefield terrain.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

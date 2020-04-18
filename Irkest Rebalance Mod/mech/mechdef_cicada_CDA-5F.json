@@ -21,7 +21,7 @@
     "ChassisID": "chassisdef_cicada_CDA-5F",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6120000,
+        "Cost": 6420000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
@@ -32,7 +32,7 @@
         "Details": "Cicada 5F stock configuration: 3 extended-range medium lasers, 6 jump jets, 2 targeting baffles, 10 heatsinks, 2 lightweight structures and Ceres metals reinforced cockpit.",
         "Icon": "uixTxrIcon_cicada"
     },
-    "simGameMechPartCost": 610000,
+    "simGameMechPartCost": 640000,
     "Version": 1,
     "Locations": [
         {

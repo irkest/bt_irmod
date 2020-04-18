@@ -201,5 +201,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Brawler & Sniper",
-    "YangsThoughts": "The Banshee 3E was originally designed for close combat, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, its firepower is severely lacking and it can still be flanked by lighter units."
+    "YangsThoughts": "The Banshee 3E was originally designed for close combat, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, its firepower is severely lacking and it can still be flanked by lighter units.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Composite_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

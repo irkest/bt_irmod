@@ -225,6 +225,18 @@
     "YangsThoughts": "Versatile and powerful, the BattleMaster 1G is one of the best known BattleMechs in existence. Normally mounting a varied array of Energy weapons, the BattleMaster can engage enemies at any range and packs a powerful punch.",
     "FixedEquipment" : [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Cemented_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
             "MountedLocation" : "RightTorso",
             "ComponentDefID" : "Gear_General_Lance_Command_Module",
             "SimGameUID" : "",

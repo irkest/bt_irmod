@@ -229,5 +229,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Brawler & Sniper",
-    "YangsThoughts": "The Banshee 3M mounts respectable weaponry with better-than-average speed and armor. This comes at the cost of very poor heat management. It's good at hunting lighter units, especially if it can close to Melee range."
+    "YangsThoughts": "The Banshee 3M mounts respectable weaponry with better-than-average speed and armor. This comes at the cost of very poor heat management. It's good at hunting lighter units, especially if it can close to Melee range.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Composite_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

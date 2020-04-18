@@ -214,7 +214,7 @@
         },
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_General_Targeting_Baffle",
+            "ComponentDefID" : "Gear_General_Targeting_Baffle_Mod",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -226,7 +226,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_General_Targeting_Baffle",
+            "ComponentDefID" : "Gear_General_Targeting_Baffle_Mod",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,

@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Thunderbolt",
+        "UIName": "Thunderbolt 5SS",
         "Id": "chassisdef_thunderbolt_TDR-5SS",
-        "Name": "Thunderbolt",
+        "Name": "Thunderbolt 5SS",
         "Details": "Known for its superb heat management, the Thunderbolt 5SS hits hard at long range with its PPC and then closes to disable or destroy its target with close-range weaponry.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
@@ -213,5 +213,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Striker & Disabler",
-    "YangsThoughts": "Known for its superb heat management, the Thunderbolt 5SS hits hard at long range with its PPC and then closes to disable or destroy its target with close-range weaponry."
+    "YangsThoughts": "Known for its superb heat management, the Thunderbolt 5SS hits hard at long range with its PPC and then closes to disable or destroy its target with close-range weaponry.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

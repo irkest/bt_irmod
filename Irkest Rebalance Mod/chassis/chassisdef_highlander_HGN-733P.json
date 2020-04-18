@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Highlander",
+        "UIName": "Highlander 733P",
         "Id": "chassisdef_highlander_HGN-733P",
-        "Name": "Highlander",
+        "Name": "Highlander 733P",
         "Details": "The Highlander 733P is a variant of the 733 model that removes its Autocannon and replaces it with a PPC. It also handles heat buildup better.",
         "Icon": "uixTxrIcon_highlander"
     },
@@ -214,5 +214,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut, Sniper, & Heavy Cavalry",
-    "YangsThoughts": "The Highlander 733P is a variant of the 733 model that removes its Autocannon and replaces it with a PPC. It also handles heat buildup better."
+    "YangsThoughts": "The Highlander 733P is a variant of the 733 model that removes its Autocannon and replaces it with a PPC. It also handles heat buildup better.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Composite_I",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

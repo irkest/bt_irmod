@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Catapult",
+        "UIName": "Catapult C1",
         "Id": "chassisdef_catapult_CPLT-C1",
-        "Name": "Catapult",
+        "Name": "Catapult C1",
         "Details": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.",
         "Icon": "uixTxrIcon_catapult"
     },
@@ -207,5 +207,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Fire Support",
-    "YangsThoughts": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch."
+    "YangsThoughts": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Hardened_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
 }

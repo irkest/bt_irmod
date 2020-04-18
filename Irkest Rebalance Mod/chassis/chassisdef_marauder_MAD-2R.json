@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Marauder",
+        "UIName": "Marauder 2R",
         "Id": "chassisdef_marauder_MAD-2R",
-        "Name": "Marauder",
+        "Name": "Marauder 2R",
         "Details": "The MAD-2R is the Marauder variant that was given to the SLDF's Royal Divisions before the fall of the Star League. Like most Royal units, it is exceedingly rare, and comes equipped with advanced weaponry and components.",
         "Icon": "uixTxrIcon_marauder"
     },
@@ -205,6 +205,18 @@
     "StockRole": "Ranged Assault",
     "YangsThoughts": "The MAD-2R is the Marauder variant that was given to the SLDF's Royal Divisions before the fall of the Star League. Like most Royal units, it is exceedingly rare, and comes equipped with advanced weaponry and components.",
     "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Armor_Cemented_II",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
         {
             "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_General_Lance_Command_Module",
