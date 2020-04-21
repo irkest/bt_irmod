@@ -8,8 +8,8 @@
         "UIName" : "Hardened armor I",
         "Id" : "Gear_Armor_Hardened_I",
         "Name" : "Hardened armor I",
-        "Details" : "This mech is equipped with hardened armor class I. The hardened armor I reduces damage received by the mech by 8%.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Details" : "This mech is equipped with the class I hardened armor. The class I hardened armor reduces received damage by 8%.",
+        "Icon" : "uixSvgIcon_statusGuarded"
     },
     "BonusValueA" : "- 8% Dmg.",
     "BonusValueB" : "",
@@ -38,7 +38,7 @@
                 "Id" : "StatusEffect-LCM-DamageReduction",
                 "Name" : "Hardened armor I",
                 "Details" : "This mech takes [AMT] less damage.",
-                "Icon" : "uixSvgIcon_special_Equipment"
+                "Icon" : "uixSvgIcon_statusGuarded"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

@@ -9,7 +9,7 @@
         "Id" : "Gear_Armor_Standard",
         "Name" : "Standard armor",
         "Details" : "This mech is equipped with standard armor.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Icon" : "uixSvgIcon_statusGuarded"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

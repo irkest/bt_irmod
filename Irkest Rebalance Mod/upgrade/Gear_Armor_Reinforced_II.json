@@ -8,8 +8,8 @@
         "UIName" : "Reinforced armor II",
         "Id" : "Gear_Armor_Reinforced_II",
         "Name" : "Reinforced armor II",
-        "Details" : "This mech is equipped with reinforced armor class II. The reinforced armor II reduces damage received by the mech by 6%.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Details" : "This mech is equipped with the class II reinforced armor. The class II reinforced armor reduces received damage by 6%.",
+        "Icon" : "uixSvgIcon_statusGuarded"
     },
     "BonusValueA" : "- 6% Dmg.",
     "BonusValueB" : "",
@@ -38,7 +38,7 @@
                 "Id" : "StatusEffect-LCM-DamageReduction",
                 "Name" : "Reinforced armor II",
                 "Details" : "This mech takes [AMT] less damage.",
-                "Icon" : "uixSvgIcon_special_Equipment"
+                "Icon" : "uixSvgIcon_statusGuarded"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

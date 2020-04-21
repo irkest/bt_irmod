@@ -1,22 +1,22 @@
 {
     "Description" : {
-        "Cost" : 700000,
+        "Cost" : 1500000,
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Hartford",
         "Model" : "",
-        "UIName" : "ATC E120",
-        "Id" : "Gear_Advanced_Targeting_Computer_E120",
-        "Name" : "ATC E120",
-        "Details" : "Advanced targeting computer E120 increases weapons accuracy and improves the reliability of Called Shots executed by the mech pilot.",
+        "UIName" : "ATC E180",
+        "Id" : "Gear_Advanced_Targeting_Computer_E180",
+        "Name" : "ATC E180",
+        "Details" : "Advanced targeting computer E180 increases weapons accuracy and improves the reliability of Called Shots executed by the mech pilot.",
         "Icon" : "UixSvgIcon_specialEquip_System"
     },
     "BonusValueA" : "+ Called Shot",
-    "BonusValueB" : "+ 1 Acc.",
+    "BonusValueB" : "+ 2 Acc.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
-    "InventorySize" : 3,
+    "InventorySize" : 2,
     "Tonnage" : 1,
     "AllowedLocations" : "LeftTorso, RightTorso",
     "DisallowedLocations" : "All",
@@ -38,7 +38,7 @@
             "Description" :
             {
                 "Id" : "StatusEffect-LCM-CalledShotBonus",
-                "Name" : "ATC E120: + Called Shot",
+                "Name" : "ATC E180: + Called Shot",
                 "Details" : "Called Shots executed by this unit are improved by [AMT].",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
@@ -48,7 +48,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "CalledShotBonusMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "2.4",
+                "modValue" : "2.5",
                 "modType" : "System.Single"
             },
             "nature" : "Buff"
@@ -67,7 +67,7 @@
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StatusEffect-ACM-ToHit",
-                "Name" : "ATC E120: + 1 Acc.",
+                "Name" : "ATC E180: + 2 Acc.",
                 "Details" : "All weapon attacks have their hit improved by [AMT].",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
@@ -76,7 +76,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "-1.0",
+                "modValue" : "-2.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

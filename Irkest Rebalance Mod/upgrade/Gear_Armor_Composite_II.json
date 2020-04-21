@@ -8,8 +8,8 @@
         "UIName" : "Composite armor II",
         "Id" : "Gear_Armor_Composite_II",
         "Name" : "Composite armor II",
-        "Details" : "This mech is equipped with composite armor class II. The composite armor II reduces damage received by the mech by 18%.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Details" : "This mech is equipped with the class II composite armor. The class II composite armor reduces received damage by 18%.",
+        "Icon" : "uixSvgIcon_statusGuarded"
     },
     "BonusValueA" : "- 18% Dmg.",
     "BonusValueB" : "",
@@ -38,7 +38,7 @@
                 "Id" : "StatusEffect-LCM-DamageReduction",
                 "Name" : "Composite armor II",
                 "Details" : "This mech takes [AMT] less damage.",
-                "Icon" : "uixSvgIcon_special_Equipment"
+                "Icon" : "uixSvgIcon_statusGuarded"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

@@ -8,8 +8,8 @@
         "UIName" : "Cemented armor I",
         "Id" : "Gear_Armor_Cemented_I",
         "Name" : "Cemented armor I",
-        "Details" : "This mech is equipped with cemented armor class I. The cemented armor I reduces damage received by the mech by 12%.",
-        "Icon" : "uixSvgIcon_special_Equipment"
+        "Details" : "This mech is equipped with the class I cemented armor. The class I cemented armor reduces received damage by 12%.",
+        "Icon" : "uixSvgIcon_statusGuarded"
     },
     "BonusValueA" : "- 12% Dmg.",
     "BonusValueB" : "",
@@ -38,7 +38,7 @@
                 "Id" : "StatusEffect-LCM-DamageReduction",
                 "Name" : "Cemented armor I",
                 "Details" : "This mech takes [AMT] less damage.",
-                "Icon" : "uixSvgIcon_special_Equipment"
+                "Icon" : "uixSvgIcon_statusGuarded"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
