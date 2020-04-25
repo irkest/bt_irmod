@@ -1,0 +1,66 @@
+{
+    "Description" : {
+        "Cost" : 1100000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "StarCorp",
+        "Model" : "",
+        "UIName" : "Battle Target Analyzer",
+        "Id" : "Gear_General_Battle_Target_Analyzer",
+        "Name" : "Battle Target Analyzer",
+        "Details" : "The combat target analyzer increases weapon damage by 15%.",
+        "Icon" : "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA" : "+ 15% Weapon Dmg.",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 3,
+    "Tonnage" : 1,
+    "AllowedLocations" : "LeftTorso, RightTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-BattleTargetAnalyzer-WeaponDmgBonus",
+                "Name" : "Battle Target Analyzer",
+                "Details" : "All weapons on this unit deal [AMT] more damage.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.15",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+			"BUILT-IN",
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

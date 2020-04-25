@@ -13,6 +13,8 @@
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+        { "Type": "TurretChassisDef", "Path": "turretchassis", "AddToDB": true },
+        { "Type": "TurretDef", "Path": "turret", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemcollection", "ShouldAppendText": false },
         { "Type": "ShipModuleUpgrade", "Path": "shipupgrade", "AddToDB": true }
     ]

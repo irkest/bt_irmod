@@ -19,7 +19,7 @@
     "ChassisID": "chassisdef_enforcer_ENF-4R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5460000,
+        "Cost": 6530000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
@@ -30,7 +30,7 @@
         "Details": "Enforcer 4R models combine the hefty power of an Autocannon and massive Laser with the mobility of Jump Jets\u2014a deadly combination. Able to engage at medium-long all the way to point-blank range, these 'Mechs are flexible and surprising in combat.",
         "Icon": "uixTxrIcon_enforcer"
     },
-    "simGameMechPartCost": 550000,
+    "simGameMechPartCost": 650000,
     "Version": 1,
     "Locations": [
         {
@@ -164,17 +164,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
