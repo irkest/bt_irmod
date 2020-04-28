@@ -88,7 +88,7 @@
             "effectType" : "StatisticEffect",
             "Description" :
             {
-                "Id" : "StatusEffect-LCM-CalledShotBonus",
+                "Id" : "StatusEffect-CS1A-CalledShotBonus",
                 "Name" : "CS-1A: + Called Shot",
                 "Details" : "Called Shots executed by this unit are more reliable.",
                 "Icon" : "UixSvgIcon_specialEquip_System"

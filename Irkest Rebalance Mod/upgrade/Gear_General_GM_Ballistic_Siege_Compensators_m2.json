@@ -1,58 +1,27 @@
 {
     "Description" : {
-        "Cost" : 700000,
+        "Cost" : 1500000,
         "Rarity" : 99,
-        "Purchasable" : true,
-        "Manufacturer" : "Hartford",
+        "Purchasable" : false,
+        "Manufacturer" : "GM",
         "Model" : "",
-        "UIName" : "ATC E120",
-        "Id" : "Gear_Advanced_Targeting_Computer_E120",
-        "Name" : "ATC E120",
-        "Details" : "Advanced targeting computer E120 increases weapons accuracy and improves the reliability of Called Shots executed by the mech pilot.",
+        "UIName" : "BSC System m2",
+        "Id" : "Gear_General_GM_Ballistic_Siege_Compensators_m2",
+        "Name" : "Ballistic Siege Compensators",
+        "Details" : "The integrated Ballistic Siege Compensators of the Annihilator turn it into an indomitable killing machine. Specially tuned to the behemoth's stature and stride, this equipment increases maximum stability and Ballistic weaponry damage.",
         "Icon" : "UixSvgIcon_specialEquip_System"
     },
-    "BonusValueA" : "+ Called Shot",
-    "BonusValueB" : "+ 1 Acc.",
+    "BonusValueA" : "+ 20% Ballistic Dmg.",
+    "BonusValueB" : "+ 50 Max Stability",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
-    "InventorySize" : 3,
-    "Tonnage" : 1,
-    "AllowedLocations" : "LeftTorso, RightTorso",
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-        {
-            "durationData" :
-            {
-                "duration" : -1,
-                "stackLimit" : 1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" :
-            {
-                "Id" : "StatusEffect-ATC-CalledShotBonus",
-                "Name" : "ATC E120: + Called Shot",
-                "Details" : "Called Shots executed by this unit are improved by [AMT].",
-                "Icon" : "UixSvgIcon_specialEquip_System"
-            },
-            "statisticData" : 
-            {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "CalledShotBonusMultiplier",
-                "operation" : "Float_Multiply",
-                "modValue" : "2.4",
-                "modType" : "System.Single"
-            },
-            "nature" : "Buff"
-        },
         {
             "durationData" : {
                 "duration" : -1,
@@ -66,20 +35,54 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-ACM-ToHit",
-                "Name" : "ATC E120: + 1 Acc.",
-                "Details" : "All weapon attacks have their hit improved by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Id" : "StatusEffect-BSC-BallisticBoost",
+                "Name" : "BALLISTIC SIEGE COMPENSATORS",
+                "Details" : "Ballistic weapons on this unit deal [AMT] more damage, and maximum stability is increased by 40.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-BSC-MaxStabilityBoost",
+                "Name" : "MAX STABILITY INCREASED",
+                "Details" : "Increases the maximum stability rating of this unit by [AMT].",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxStability",
+                "operation" : "Float_Add",
+                "modValue" : "50.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
                 "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
@@ -90,7 +93,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "BUILT-IN"
+			"BUILT-IN",
         ],
         "tagSetSourceFile" : ""
     }

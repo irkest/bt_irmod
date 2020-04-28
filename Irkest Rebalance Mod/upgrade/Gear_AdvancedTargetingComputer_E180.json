@@ -37,7 +37,7 @@
             "effectType" : "StatisticEffect",
             "Description" :
             {
-                "Id" : "StatusEffect-LCM-CalledShotBonus",
+                "Id" : "StatusEffect-ATC-CalledShotBonus",
                 "Name" : "ATC E180: + Called Shot",
                 "Details" : "Called Shots executed by this unit are improved by [AMT].",
                 "Icon" : "UixSvgIcon_specialEquip_System"

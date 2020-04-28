@@ -35,7 +35,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-LCM-DamageReduction",
+                "Id" : "StatusEffect-Armor-DamageReduction",
                 "Name" : "Composite armor II",
                 "Details" : "This mech takes [AMT] less damage.",
                 "Icon" : "uixSvgIcon_statusGuarded"
